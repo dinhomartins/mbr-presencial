@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 const AccordionItem = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="accordion-item mb-4 border-b-2 lg:pb-[20px]  border-[#BB0219] font-['Libre Caslon Text']">
-      <button className="accordion-title text-[18px] text-left pb-[10px] lg:text-[22px] lg:text-[28px]" onClick={() => setIsOpen(!isOpen)}>
-        {title}
-      </button>
-      {isOpen && <div className="accordion-content text-[18px] pb-[20px] ">{content}</div>}
+    <div className="accordion-item mb-4 border-b-2 lg:pb-[20px]  border-[#DC8F60] font-['Libre Caslon Text']">
+      <div className="flex justify-between items-center">
+        <button className="accordion-title text-[18px] text-left pb-[10px] lg:text-[22px] lg:text-[28px]" onClick={() => setIsOpen(!isOpen)}>
+          {title}
+        </button>
+        <FontAwesomeIcon icon={faAngleDown} className={`text-[18px] transition-transform transform ${isOpen ? 'rotate-180' : ''}`} />
+      </div>
+      {isOpen && <div className="accordion-content text-[18px] pb-[20px] text-[#A7A0A0]">{content}</div>}
     </div>
   );
 };

@@ -13,8 +13,8 @@ const Footer = () => {
       {/* Primeira Linha com 3 Colunas */}
       <div className="flex flex-wrap justify-between items-center">
         {/* Primeira Coluna - Imagem */}
-        <div className="w-full md:w-1/3 p-2">
-          <Image src="/imgpgvendas/bemresolvida.webp"  className='w-[250px]' alt="Imagem" width={100} height={100} />
+        <div className="w-full md:w-1/3 p-2 ">
+          <Image src="/imgpgvendas/bemresolvida.webp"  className='w-[250px] mx-auto lg:mx-[0] md:mx-[0]' alt="Imagem" width={100} height={100} />
         </div>
 
         {/* Segunda Coluna - Texto Centralizado */}

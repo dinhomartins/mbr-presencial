@@ -7,8 +7,8 @@ import Image from "next/image";
 // import CarouselComponent from '../Carrossel'
 import SubFooter from "../SubFooter";
 import Footer from "../Footer";
-import {useUtmParserSales} from '../HotmartTracking'
-import {useUtmParserSalesOuro} from '../HotmartTrackingOuro'
+import { useUtmParserSales } from '../HotmartTracking'
+import { useUtmParserSalesOuro } from '../HotmartTrackingOuro'
 import { useUtmParserSalesDiamante } from "../HotmartTrackingDiamante";
 
 // Componentes importados dinamicamente
@@ -17,7 +17,7 @@ const Acordeon = dynamic(() => import('../Accordeon'), { ssr: false });
 const CarouselComponent = dynamic(() => import('../Carrossel'), { ssr: false });
 
 
-function Vendas() {
+function VendasB() {
 
     const utmPrata = useUtmParserSales()
     const utmOuro = useUtmParserSalesOuro()
@@ -34,8 +34,105 @@ function Vendas() {
     };
 
     return (
-        <div className="bg-[#DA001B]  text-white min-h-screen   " id="topo">
-            <div className="lg:bg-[url('/imgpgvendas/bg1desk.webp')] bg-[url('/imgpgvendas/bg1desk.webp')]  pt-[25px] lg:pt-[35px] lg:bg-bottom md:bg-bottom bg-cover bg-no-repeat">
+        <div className="bg-[#000]  text-white min-h-screen   " id="topo">
+
+
+
+
+
+            <div className="lg:bg-[url('/imgpgvendas/bg1v3desk.webp')] bg-[url('/imgpgvendas/bg1mobilev2.webp')] pb-[40px] pt-[25px] lg:pt-[35px] lg:bg-bottom md:bg-bottom bg-cover bg-no-repeat">
+                <Container>
+                    <div className="lg:flex flex-col justify-center items-center max-w-[1179px] mx-auto ">
+                        <Image
+                            className="mx-auto lg:mx-0 w-[200px] lg:w-[526px] lg:h-[72px]"
+                            src={"/imgpgvendas/logo.webp"}
+                            width={526}
+                            height={72}
+                            alt="Bem resolvida"
+                        />
+                        <Image
+                            className="mx-auto lg:mx-0 w-[170px] lg:w-[350px]"
+                            src={"/imgpgvendas/data.webp"}
+                            width={450}
+                            height={112}
+                            alt="Data"
+                        />
+                        <h2 className="text-center lg:text-left text-[14px] lg:text-[20px] text-[#A7A0A0] font-['Archivo'] lg:mt-[10px] mt-[10px] " style={{ fontFamily: "'Archivo', serif" }}>
+                            EVENTO PRESENCIAL EM BRASÍLIA
+                        </h2>
+                    </div>
+
+
+
+                    {/* lado esquerdo */}
+                    <div className="flex flex-col lg:flex-row lg:text-left relative lg:px-[40px]  mx-auto lg:mt-[40px]">
+                        <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left ">
+                            <div className=" flex flex-col lg:text-left relative  max-w-[1100px] mx-auto lg:mt-[10px] lg:pr-[60px] pr-[] ">
+
+                                <h3 className="font-['Libre Caslon Text'] text-[20px]  lg:text-[30px] mt-[15px] lg:mt-0 tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[36px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}>
+                                    Um movimento de mulheres que desejam revolucionar a autoestima, conquistar liberdade financeira e resgatar a melhor versão de si mesmas
+                                </h3>
+                                <h4 className="font-['Lato'] text-[16px] text-[#A7A0A0] lg:text-[20px] lg:mt-[20px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px] lg:leading-[26px] leading-[20px]" style={{ fontFamily: "'Lato', serif" }}>
+                                    Clique no botão abaixo para garantir o seu ingresso com preço promocional de pré-venda e <b>participar deste movimento de mulheres:</b>
+                                </h4>
+
+                                <button
+                                    className="bg-[#DC8F60] justify-center hidden lg:block md:block  items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px] max-w-[600px] lg:h-[64px] w-full  text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px] lg:w-full md:w-[500px] w-[146px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
+                                    href="" onClick={handleClickScroll}
+                                >
+                                    QUERO PARTICIPAR DO BEM-RESOLVIDA
+                                </button>
+                                <h4 className="font-['Lato']  text-[16px]  lg:text-[20px] lg:mt-[20px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px] lg:leading-[26px]" style={{ fontFamily: "'Lato', serif" }}>
+                                    Assista ao vídeo e entenda <b>o que você vai encontrar no evento</b>
+                                </h4>
+                            </div>
+                        </div>
+
+
+                        {/* lardo direito */}
+                        <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left">
+                            {/* video */}
+                            <div className="lg:flex gap-4 xl:gap-[34px] justify-center mt-[20px]  max-w-[1196px] mx-auto">
+                                <iframe
+                                    autoPlay={true}
+                                    className="aspect-video w-full rounded lg:rounded-[10px] "
+                                    src="https://www.youtube.com/embed/J9IpA6m7ebI"
+                                    onPlay={true}
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe>
+
+                                <button
+                                    className="bg-[#DC8F60]  lg:hidden md:hidden justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px] max-w-[600px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px] lg:w-[700px] md:w-[400px]  w-[146px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
+                                    href="" onClick={handleClickScroll}
+                                >
+                                    QUERO PARTICIPAR DO BEM-RESOLVIDA
+                                </button>
+                                <h4 className="font-['Lato'] hidden lg:hidden md:hidden text-[16px]  lg:text-[20px] lg:mt-[20px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px] lg:leading-[26px]" style={{ fontFamily: "'Lato', serif" }}>
+                                    Assista ao vídeo e entenda <b>o que você vai encontrar no evento</b>
+                                </h4>
+
+                            </div>
+                            {/*fIM video */}
+                        </div>
+                    </div>
+
+                </Container>
+            </div>
+
+
+
+
+
+
+
+
+
+
+{/* area oculta */}
+            <div className="lg:bg-[url('/imgpgvendas/bg1v2desk.webp')] bg-[url('/imgpgvendas/bg1mobilev2.webp')]  pt-[25px] lg:pt-[35px] lg:bg-bottom md:bg-bottom bg-cover bg-no-repeat lg:hidden: md:hidden hidden">
                 <Container>
                     <div className="lg:flex flex-col justify-center items-center max-w-[1179px] mx-auto ">
                         <Image
@@ -83,10 +180,10 @@ function Vendas() {
 
                     <div className=" flex flex-col  flex-col justify-center items-center lg:text-left relative  max-w-[1100px] mx-auto lg:mt-[20px] lg:px-[60px] ">
                         <h4 className="font-['Lato'] text-[16px] text-center lg:text-[20px] mt-[20px] lg:mt-0 tracking-[2px] lg:tracking-[1px] lg:leading-[26px] leading-[20px]  max-w-[739px] lg:px-[20px]" style={{ fontFamily: "'Lato', serif" }}>
-                            Clique no botão abaixo para garantir o seu ingresso com preço promocional de pré-venda e participar deste movimento de mulheres:
+                            Clique no botão abaixo para garantir o seu ingresso com preço promocional de pré-venda e <b>participar deste movimento de mulheres:</b>
                         </h4>
                         <button
-                            className="bg-[#DC8F60] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px] max-w-[700px] lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px] lg:w-[700px] w-[146px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
+                            className="bg-[#DC8F60] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px] max-w-[700px] lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px] lg:w-[700px] md:w-[700px] w-[146px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
                             href="" onClick={handleClickScroll}
                         >
                             QUERO PARTICIPAR DO BEM-RESOLVIDA
@@ -94,6 +191,8 @@ function Vendas() {
                     </div>
                 </Container>
             </div>
+{/*fim area oculta */}
+            
 
             <Container>
                 {/* Fim primeira seção */}
@@ -119,7 +218,7 @@ function Vendas() {
                             <div className="w-full md:w-1/2 px-2 lg:pr-[100px]">
                                 <div className="text-center lg:text-left relative">
                                     <span className="hidden lg:block bg-[#E1B16F] h-[55px] w-[2px] absolute bottom-2 -left-5"></span>
-                                    <h3 className="font-['archivo'] text-left text-[16px] lg:text-[18px] mt-[26px] lg:mt-0 tracking-[2px] lg:tracking-[5px] font-semibold">
+                                    <h3 className="font-['archivo'] text-[#A7A0A0] text-left text-[16px] lg:text-[18px] mt-[26px] lg:mt-0 tracking-[2px] lg:tracking-[5px] font-semibold">
                                         É um evento presencial, que vai acontecer nos dias 26, 27 e 28 de abril em Brasília.
                                     </h3>
                                 </div>
@@ -142,11 +241,11 @@ function Vendas() {
                     {/* Div 4 colunas */}
                     <div className="max-w-[1196px] w-full mx-auto lg:p-4 lg:pt-[80px] mt-[60px] text-center lg:pb-[80px]">
                         <h2 className="text-xl hidden lg:block lg:text-center text-left mb-[40px] font-bold font-['Libre Caslon Text'] text-[24px] lg:text-[48px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>
-                            Esse evento <span className="text-[#E1B16F]">é para você que...</span>
+                            Esse evento <span className="text-[#DB8E60]">é para você que...</span>
 
                         </h2>
                         <h2 className="text-[24px] lg:hidden lg:text-center text-left mb-[40px] font-bold font-['Libre Caslon Text'] text-[24px] lg:text-[48px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>
-                            Esse evento <span className="text-[#E1B16F]"><br></br>é para você que...</span>
+                            Esse evento <span className="text-[#DB8E60]"><br></br>é para você que...</span>
 
                         </h2>
                         <h3 className="font-['Libre Caslon Text'] lg:mx-20 text-[18px] text-center lg:text-[30px] mt-[26px] lg:mt-0 tracking-[2px] lg:tracking-[1px]     lg:leading-[36px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}></h3>
@@ -155,23 +254,23 @@ function Vendas() {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:mt-[60px] hidden lg:flex ">
                             {/* Coluna 1 */}
                             <div className="text-left   rounded-lg lg:p-[20px]  ">
-                                <Image src="/imgpgvendas/c1.webp" alt="Imagem 1" width={277} height={435} />
+                                <Image src="/imgpgvendas/c1v2.webp" alt="Imagem 1" width={277} height={435} />
 
                             </div>
 
                             {/* Coluna 2 */}
                             <div className="text-left  rounded-lg lg:p-[20px]">
-                                <Image src="/imgpgvendas/c2.webp" alt="Imagem 1" width={277} height={435} />
+                                <Image src="/imgpgvendas/c2v2.webp" alt="Imagem 1" width={277} height={435} />
                             </div>
 
                             {/* Coluna 3 */}
                             <div className="text-left   rounded-lg lg:p-[20px]">
-                                <Image src="/imgpgvendas/c3.webp" alt="Imagem 1" width={277} height={435} />
+                                <Image src="/imgpgvendas/c3v2.webp" alt="Imagem 1" width={277} height={435} />
                             </div>
 
                             {/* Coluna 4 */}
                             <div className="text-left   rounded-lg lg:p-[20px]">
-                                <Image src="/imgpgvendas/c4.webp" alt="Imagem 1" width={277} height={435} />
+                                <Image src="/imgpgvendas/c4v2.webp" alt="Imagem 1" width={277} height={435} />
                             </div>
                         </div>
 
@@ -198,7 +297,7 @@ function Vendas() {
             {/*  Ofertas */}
 
 
-            <div className="bg-[#DB8E60] lg:pt-[60px] text-white  pt-[60px] lg:pt-[35px] lg:bg-[url('/imgpgvendas/bg3desk.webp')] bg-[url('/imgpgvendas/b3mobile.webp')] bg-top bg-cover bg-no-repeat">
+            <div className="bg-[#000] lg:pt-[60px] text-white  pt-[60px] lg:pt-[35px] lg:bg-[url('/imgpgvendas/bg3deskv2.webp')] bg-[url('/imgpgvendas/b3mobilev2.webp')] bg-top bg-cover bg-no-repeat">
                 <Container>
                     {/* pai em coluna */}
                     <div className="flex flex-col">
@@ -206,10 +305,10 @@ function Vendas() {
                             {/* Imagem Centralizada */}
                             <div className="text-center">
                                 {/* Substitua 'path_to_image' pelo caminho da sua imagem */}
-                                <img src="/imgpgvendas/ingressos.webp" alt="Imagem Centralizada" className="mx-auto " />
+                                <img src="/imgpgvendas/ingressosv2.webp" alt="Imagem Centralizada" className="mx-auto " />
 
                                 {/* Título Centralizado */}
-                                <h1 className="text-2xl font-bold my-4 lg:text-[42px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>Valor da Experiência</h1>
+                                <h1 className="text-2xl font-bold my-4 lg:text-[42px] lg:mt-[40px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}>Valor da Experiência</h1>
 
 
                                 {/* Texto Centralizado */}
@@ -225,8 +324,8 @@ function Vendas() {
                             <div className="  flex flex-col lg:flex-row  " id="oferta">
                                 {/* Coluna 1 */}
                                 <div className="  lg:w-1/3  text-center lg:p-4   ">
-                                    <div className="bg-[#DA001B] text-center pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px] p-4 lg:px-[40px] lg:pt-[60px] rounded-lg">
-                                        <img src="/imgpgvendas/pacoteprata.webp" alt="Pacote experience" className="mx-auto md:w-[124px] lg:w-[124px]" />
+                                    <div className="bg-[#000] text-center pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px] p-4 lg:px-[40px] lg:pt-[60px] rounded-lg">
+                                        <img src="/imgpgvendas/pacotepratav2.webp" alt="Pacote experience" className="mx-auto md:w-[124px] lg:w-[124px]" />
                                         <hr className="my-2 divide-stone-300 lg:mt-[24px] lg:mb-[20px] mt-[40px]" />
 
                                         <div className="flex flex-start  lg:pt-[10px]  md:pt-[20px] pt-[10px] mt-[30px]">
@@ -244,10 +343,27 @@ function Vendas() {
                                             <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Certificado digital<br></br>de participação</p>
                                         </div>
 
+                                        <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
+                                            <img src="/imgpgvendas/cancel.webp" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
+                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Acesso a lugares mais próximos ao palco</p>
+                                        </div>
+
+
+
+                                        <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
+                                            <img src="/imgpgvendas/cancel.webp" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
+                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Acesso ao coffeebreak durante o evento</p>
+                                        </div>
+
+                                        <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
+                                            <img src="/imgpgvendas/cancel.webp" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
+                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia no dia 25 de abril, quinta-feira</p>
+                                        </div>
+
                                         <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
 
-                                        <img src="/imgpgvendas/p1.webp" alt="Imagem Coluna 1" className="mx-auto mt-[20px]" />
-                                        <p className="my-2 text-[18px] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5" style={{ fontFamily: "'Lato', serif" }}>Garanta seu<br></br>
+                                        <img src="/imgpgvendas/p1v2.webp" alt="Imagem Coluna 1" className="mx-auto mt-[20px]" />
+                                        <p className="my-2 text-[18px] text-[#CCCCCC] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5" style={{ fontFamily: "'Lato', serif" }}>Garanta seu<br></br>
                                             desconto de pré-venda</p>
 
                                         {/* bptao primeira oferta */}
@@ -268,8 +384,8 @@ function Vendas() {
 
                                 {/* Coluna 2 pacote ouro */}
                                 <div className=" lg:w-1/3 text-center lg:p-4 mt-[40px] lg:mt-[0] ">
-                                    <div className="bg-[#DA001B] text-center pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px]  p-4 lg:px-[40px] lg:pt-[60px] rounded-lg">
-                                        <img src="/imgpgvendas/pacoteouro.webp" alt="Pacote experience" className="mx-auto md:w-[124px] lg:w-[124px]" />
+                                    <div className="bg-[#000] text-center pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px]  p-4 lg:px-[40px] lg:pt-[60px] rounded-lg">
+                                        <img src="/imgpgvendas/pacoteourov2.webp" alt="Pacote experience" className="mx-auto md:w-[124px] lg:w-[124px]" />
                                         <hr className="my-2 divide-stone-300 lg:mt-[24px] lg:mb-[20px] mt-[40px] " />
 
                                         <div className="flex flex-start  lg:pt-[10px]  md:pt-[20px] pt-[10px]  mt-[30px]">
@@ -297,16 +413,22 @@ function Vendas() {
                                             <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Acesso ao coffeebreak durante o evento</p>
                                         </div>
 
+
+                                        <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
+                                            <img src="/imgpgvendas/cancel.webp" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
+                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia no dia 25 de abril, quinta-feira</p>
+                                        </div>
+
                                         <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
 
-                                        <img src="/imgpgvendas/p2.webp" alt="Imagem Coluna 1" className="mx-auto mt-[20px]" />
-                                        <p className="my-2 text-[18px] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5" style={{ fontFamily: "'Lato', serif" }}>Garanta seu<br></br>
+                                        <img src="/imgpgvendas/p2v2.webp" alt="Imagem Coluna 1" className="mx-auto mt-[20px]" />
+                                        <p className="my-2 text-[18px] text-[#CCCCCC] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5" style={{ fontFamily: "'Lato', serif" }}>Garanta seu<br></br>
                                             desconto de pré-venda</p>
 
                                         {/* bptao primeira oferta */}
                                         <a
                                             className="bg-[#DC8F60] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
-                                            href={utmOuro} 
+                                            href={utmOuro}
                                             target="_blank"
                                         >
                                             QUERO MEU INGRESSO
@@ -316,12 +438,12 @@ function Vendas() {
 
                                 {/* Coluna 3 Pacote diamente */}
                                 <div className=" lg:w-1/3 text-center lg:p-4 mt-[40px] lg:mt-[0]">
-                                    <div className="bg-[#DA001B] text-center pt-[40px] md:pt-[40px]  lg:pb-[60px] pb-[40px] p-4 lg:px-[40px]  rounded-lg">
+                                    <div className="bg-[#000] text-center pt-[40px] md:pt-[40px]  lg:pb-[60px] pb-[40px] p-4 lg:px-[40px]  rounded-lg">
                                         {/* mais vendido */}
-                                        <img src="/imgpgvendas/maisvendido.webp" alt="Pacote experience" className="mx-auto md:w-[150px] lg:w-[200px] lg:-mt-[54px] -mt-[54px] lg:mb-[40px] mb-[40px]" />
+                                        <img src="/imgpgvendas/maisvendidov2.webp" alt="Pacote experience" className="mx-auto md:w-[150px] lg:w-[200px] lg:-mt-[54px] -mt-[54px] lg:mb-[40px] mb-[40px]" />
 
-                                        <img src="/imgpgvendas/pacotediamond.webp" alt="Pacote experience" className="mx-auto md:w-[155px] lg:w-[155px]" />
-                                        <hr className="my-2 divide-stone-300 lg:mt-[24px] lg:mb-[20px] mt-[40px] "  />
+                                        <img src="/imgpgvendas/pacotediamondv2.webp" alt="Pacote experience" className="mx-auto md:w-[155px] lg:w-[155px]" />
+                                        <hr className="my-2 divide-stone-300 lg:mt-[24px] lg:mb-[20px] mt-[40px] " />
 
                                         <div className="flex flex-start  lg:pt-[10px]  md:pt-[20px] pt-[10px]  mt-[30px]">
                                             <img src="/imgpgvendas/check.png" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
@@ -343,7 +465,7 @@ function Vendas() {
                                             <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Acesso a lugares mais próximos ao palco</p>
                                         </div>
 
-                                
+
 
                                         <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
                                             <img src="/imgpgvendas/check.png" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
@@ -357,14 +479,14 @@ function Vendas() {
 
                                         <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
 
-                                        <img src="/imgpgvendas/p3.webp" alt="Imagem Coluna 1" className="mx-auto mt-[20px]" />
-                                        <p className="my-2 text-[18px] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5" style={{ fontFamily: "'Lato', serif" }}>Garanta seu<br></br>
+                                        <img src="/imgpgvendas/p3v2.webp" alt="Imagem Coluna 1" className="mx-auto mt-[20px]" />
+                                        <p className="my-2 text-[18px] text-[#CCCCCC] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5" style={{ fontFamily: "'Lato', serif" }}>Garanta seu<br></br>
                                             desconto de pré-venda</p>
 
                                         {/* bptao primeira oferta */}
                                         <a
                                             className="bg-[#DC8F60] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
-                                            href={utmDiamante} 
+                                            href={utmDiamante}
                                             target="_blank"
                                         >
                                             QUERO MEU INGRESSO
@@ -390,7 +512,7 @@ function Vendas() {
                                     <div className="flex justify-center">
                                         <Image
                                             className="mx-auto lg:mx-0 lg:w-[371px] lg:h-[95px] "
-                                            src={"/imgpgvendas/garantia01.webp"}
+                                            src={"/imgpgvendas/garantia01v2.webp"}
                                             width={371}
                                             height={87}
                                             alt="Data"
@@ -401,7 +523,7 @@ function Vendas() {
                                     <div className="flex justify-center">
                                         <Image
                                             className="mx-auto lg:mx-0 lg:w-[371px] lg:h-[95px]"
-                                            src={"/imgpgvendas/garantia02.webp"}
+                                            src={"/imgpgvendas/garantia02v2.webp"}
                                             width={371}
                                             height={97}
                                             alt="Data"
@@ -412,7 +534,7 @@ function Vendas() {
                                     <div className="flex justify-center">
                                         <Image
                                             className="mx-auto lg:mx-0 lg:w-[371px] lg:h-[90px] "
-                                            src={"/imgpgvendas/garantia03.webp"}
+                                            src={"/imgpgvendas/garantia03v2.webp"}
                                             width={371}
                                             height={97}
                                             alt="Data"
@@ -424,7 +546,7 @@ function Vendas() {
                             </div>
                             <Image
                                 className="mx-auto lg:mx-0 w-[250px] lg:hidden md:hidden"
-                                src={"/imgpgvendas/garantiamobile.webp"}
+                                src={"/imgpgvendas/garantiamobilev2.webp"}
                                 width={371}
                                 height={97}
                                 alt="Data"
@@ -434,7 +556,7 @@ function Vendas() {
 
 
                         {/* cronograma */}
-                        <div className="container flex flex-col lg:flex-row mx-auto pb-[60px] lg:mt-[40px] mt-[40px] max-w-[1100px] lg:mt-[160px] lg:pb-[80px]">
+                        <div className="container flex flex-col lg:flex-row mx-auto pb-[60px] lg:mt-[120px] mt-[40px] max-w-[1100px] lg:mt-[160px] lg:pb-[80px]">
                             <div className=" lg:w-1/2 text-center  mt-[40px] lg:mt-[0] ">
                                 <Image
                                     className="mx-auto lg:mx-0 "
@@ -443,7 +565,7 @@ function Vendas() {
                                     height={15}
                                     alt="Cronograma"
                                 />
-                                <h1 className="lg:text-left text-center lg:text-[32px] text-[24px]  my-4 lg:text-[42px] lg:leading-[50px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>
+                                <h1 className="lg:text-left text-center text-[#A7A0A0] lg:text-[32px] text-[24px]  my-4 lg:text-[42px] lg:leading-[50px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>
                                     Confira a programação<br></br>
                                     <b>do Bem Resolvida</b>
                                 </h1>
@@ -463,19 +585,19 @@ function Vendas() {
 
 
                     </div>
-                </Container> 
+                </Container>
             </div>
 
 
             {/* secao */}
-            <div className=" text-white  pt-[25px] lg:pt-[35px]   lg:bg-[#DA001B] bg-cover bg-no-repeat">
+            <div className=" text-white  pt-[25px] lg:pt-[35px]   lg:bg-[#000] bg-cover bg-no-repeat">
 
                 <Container>
                     <div className="lg:flex flex-col justify-center items-center max-w-[1179px] mx-auto pb-[40px] ">
                         <div className="lg:flex flex-col justify-center items-center max-w-[909px] mx-auto ">
                             <Image
                                 className="mx-auto lg:mx-0 "
-                                src={"/imgpgvendas/catia.webp"}
+                                src={"/imgpgvendas/catiav2.webp"}
                                 width={1196}
                                 height={600}
                                 alt="Bem resolvida"
@@ -492,7 +614,7 @@ function Vendas() {
                                 <h3 className="font-['Libre Caslon Text'] lg:mx-20 text-[18px] text-left lg:text-center lg:text-[30px] text-[24px] mt-[26px] lg:mt-0 tracking-[2px] lg:tracking-[1px]     lg:leading-[36px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}>
                                     Minha missão é despertar na mulher o que ela tem de melhor.</h3>
                                 <Image
-                                    className="mx-auto lg:mt-[20px]  lg:w-[412px] mt-[20px] mb-[20px] w-[300px]"
+                                    className="mx-auto lg:mt-[20px]  lg:w-[412px] mt-[20px] mb-[20px] w-[200px] "
                                     src={"/imgpgvendas/assinatura.webp"}
                                     width={412}
                                     height={61}
@@ -519,13 +641,13 @@ function Vendas() {
 
             {/* perguntas frequentes */}
             {/* secao */}
-            <div className="   text-white  pt-[25px] lg:pt-[35px] lg:bg-[#DA001B] bg-cover bg-no-repeat">
+            <div className="   text-white  pt-[25px] lg:pt-[35px] lg:bg-[#000] bg-cover bg-no-repeat">
 
                 <Container>
                     <div className="lg:flex flex-col  justify-center items-center max-w-[1179px] mx-auto lg:mt-[60px]">
                         <div className=" flex flex-col lg:flex-row lg:text-left relative  mx-auto lg:mt-[40px] text-center ">
                             <h2 className="text-xl lg:text-center text-left mb-[40px] font-bold font-['Libre Caslon Text'] text-[24px] lg:text-[38px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>
-                                Dúvidas <span className="text-[#E1B16F]">Frequentes</span>
+                                Dúvidas <span className="text-[#DC8F60]">Frequentes</span>
                             </h2>
                         </div>
                         <Acordeon />
@@ -536,20 +658,19 @@ function Vendas() {
 
 
             {/* parceiros */}
-            <div className="lg:bg-[url('/imgpgvendas/bgsubrodape.webp')] bg-[url('/imgpgvendas/subrodapemobile.webp')]  bg-top bg-cover bg-no-repeat lg:mt-[40px] mt-[40px]">
+            <div className="bg-[#000]  bg-top bg-cover bg-no-repeat lg:mt-[40px] mt-[40px] lg:pb-[20px]">
 
                 <Container>
-                    <div className="  container mx-auto  max-w-[1196px] pb-[80px] lg:px-[0] px-4">
-                        <div className="grid grid-cols-1 md:grid-cols-4 gap-0 lg:mt-[100px]">
-                            {/* Coluna 1 */}
-                            <div className="flex flex-col flex-start ">
-                                <h2 className="lg:text-left text-center text-[24px] text-left mb-[40px]  font-['Libre Caslon Text'] lg:text-[38px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>
-                                    Nossos <span className="text-[#E1B16F] text-[24px] lg:text-[38px]">Parceiros</span>
-                                </h2>
-                            </div>
+                    <div className="  container mx-auto  max-w-[1196px]  lg:px-[0] px-4 lg:pt-[40px]">
+                        <div className="flex flex-col">
+                            <h2 className="lg:text-center text-center text-[24px] text-left mb-[20px]  font-['Libre Caslon Text'] lg:text-[38px] " style={{ fontFamily: "'Libre Caslon Text', serif" }}>
+                                Nossos <span className="text-[#DB8E60] text-[24px] lg:text-[38px]">Parceiros</span>
+                            </h2>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-0 ">
 
                             {/* Coluna 2 */}
-                            <div className="flex lg:justify-end lg:mt-[55px]">
+                            <div className="flex lg:justify-end  lg:mr-[40px]">
                                 <Image
                                     className="mx-auto lg:mx-0 w-[150px] lg:w-[237px] lg:h-[50px] md:w-[180px] md:h-[40px]"
                                     src={"/imgpgvendas/caixaoculta.webp"}
@@ -560,7 +681,7 @@ function Vendas() {
                             </div>
 
                             {/* Coluna 3 */}
-                            <div className="flex lg:justify-end lg:mt-[55px] mt-[20px] md:mt-[0]">
+                            <div className="flex lg:justify-start  lg:ml-[40px] mt-[20px] md:mt-[0]">
                                 <Image
                                     className="mx-auto lg:mx-0 w-[150px] lg:w-[197px] lg:h-[47px] md:w-[180px] md:h-[40px]"
                                     src={"/imgpgvendas/audax.webp"}
@@ -570,16 +691,7 @@ function Vendas() {
                                 />
                             </div>
 
-                            {/* Coluna 4 */}
-                            <div className="flex lg:justify-end lg:mt-[55px]  mt-[20px] md:mt-[0]">
-                                <Image
-                                    className="mx-auto lg:mx-0  w-[60px] lg:w-[106px] lg:h-[77px] md:w-[100px] md:h-[40px]"
-                                    src={"/imgpgvendas/intt.webp"}
-                                    width={371}
-                                    height={97}
-                                    alt="Data"
-                                />
-                            </div>
+
 
                         </div>
 
@@ -589,15 +701,11 @@ function Vendas() {
                             {/* não encontros as repostas */}
                             <div className="mt-[40px] lg:mt-[100px] flex flex-col lg:flex-row">
                                 {/* Coluna da Esquerda */}
-                                <div className="flex flex-col items-start w-full lg:w-1/2 mb-4 lg:mb-0">
-                                    <h2 className="text-center lg:text-left text-[24px] mb-[40px] font-['Libre Caslon Text'] lg:text-[38px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}>
+                                <div className="flex flex-col items-center w-full lg:w-full lg:mb-0">
+                                    <h2 className="text-center lg:text-center text-[24px] mb-[20px] font-['Libre Caslon Text'] lg:text-[38px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}>
                                         Não encontrou a<br /><b>resposta da sua dúvida?</b>
                                     </h2>
-                                </div>
-
-                                {/* Coluna da Direita */}
-                                <div className="w-full lg:w-1/2 flex flex-col lg:items-end md:items-end lg:mt-[20px] -mt-[30px] ">
-                                    <h2 className="text-center lg:text-left text-[20px] text-[#fff] font-['Archivo'] lg:text-[22px]" style={{ fontFamily: "'Archivo', serif" }}>
+                                    <h2 className="text-center lg:text-center text-[20px] text-[#fff] font-['Archivo'] lg:text-[22px]" style={{ fontFamily: "'Archivo', serif" }}>
                                         FALE CONOSCO
                                     </h2>
                                     <div className="flex items-center justify-center lg:justify-end">
@@ -613,6 +721,27 @@ function Vendas() {
                                         </span>
                                     </div>
                                 </div>
+
+                                {/* Coluna da Direita */}
+                                {/* <div className="w-full lg:w-1/2 flex flex-col lg:items-end md:items-end lg:mt-[20px] -mt-[30px] ">
+                                    <h2 className="text-center lg:text-left text-[20px] text-[#fff] font-['Archivo'] lg:text-[22px]" style={{ fontFamily: "'Archivo', serif" }}>
+                                        FALE CONOSCO
+                                    </h2>
+                                    <div className="flex items-center justify-center lg:justify-end">
+                                        <Image
+                                            className="w-[28px] lg:w-[32px] lg:h-[23px] mr-[10px] lg:-mt-[35px] md:-mt-[35px] -mt-[35px]"
+                                            src={"/imgpgvendas/email.webp"}
+                                            width={351}
+                                            height={77}
+                                            alt="Email"
+                                        />
+                                        <span className="text-[#fff] text-center lg:text-left text-[18px] mb-[40px] text-[#DB8E60] lg:text-[20px]">
+                                            suporte@mistermind.com.br
+                                        </span>
+                                    </div>
+                                </div> */}
+
+
                             </div>
                         </div>
                     </div>
@@ -630,4 +759,4 @@ function Vendas() {
     );
 }
 
-export default Vendas
+export default VendasB

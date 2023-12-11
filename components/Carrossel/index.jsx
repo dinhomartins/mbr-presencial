@@ -47,16 +47,16 @@ const CarouselComponent = () => {
       {/* Carrossel de imagens */}
       <Slider {...settings}>
         <div className="flex justify-center  items-center mx-auto">
-          <Image src="/imgpgvendas/c1.webp" className='w-full' alt="Imagem 1" width={277} height={435} />
+          <Image src="/imgpgvendas/c1v2.webp" className='w-full' alt="Imagem 1" width={277} height={435} />
         </div>
         <div className="flex justify-center  items-center">
-          <Image src="/imgpgvendas/c2.webp" className='w-full' alt="Imagem 2" width={277} height={435} />
+          <Image src="/imgpgvendas/c2v2.webp" className='w-full' alt="Imagem 2" width={277} height={435} />
         </div>
         <div className="flex justify-center  items-center">
-          <Image src="/imgpgvendas/c3.webp"className='w-full' alt="Imagem 3" width={277} height={435} />
+          <Image src="/imgpgvendas/c3v2.webp"className='w-full' alt="Imagem 3" width={277} height={435} />
         </div>
         <div className="flex justify-center  items-center">
-          <Image src="/imgpgvendas/c4.webp" className='w-full' alt="Imagem 4" width={277} height={435} />
+          <Image src="/imgpgvendas/c4v2.webp" className='w-full' alt="Imagem 4" width={277} height={435} />
         </div>
       </Slider>
     </div>

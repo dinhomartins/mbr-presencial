@@ -1,8 +1,8 @@
 import React from "react";
-import Vendas from '@/components/Vendas'
+import VendasB from '@/components/VendasB'
 
 export default function sales() {
  return (
-  <Vendas />
+  <VendasB />
   );
 }
