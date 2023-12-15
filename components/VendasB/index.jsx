@@ -384,7 +384,10 @@ function VendasB() {
 
                                 {/* Coluna 2 pacote ouro */}
                                 <div className=" lg:w-1/3 text-center lg:p-4 mt-[40px] lg:mt-[0] ">
-                                    <div className="bg-[#000] text-center pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px]  p-4 lg:px-[40px] lg:pt-[60px] rounded-lg">
+                                    <div className="bg-[#000] text-center pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px]  p-4 lg:px-[40px]  rounded-lg">
+                                        {/* mais vendido */}
+                                        <img src="/imgpgvendas/maisvendidov2.webp" alt="Pacote experience" className="mx-auto md:w-[150px] lg:w-[200px] lg:-mt-[54px] -mt-[54px] lg:mb-[40px] mb-[40px]" />
+
                                         <img src="/imgpgvendas/pacoteourov2.webp" alt="Pacote experience" className="mx-auto md:w-[124px] lg:w-[124px]" />
                                         <hr className="my-2 divide-stone-300 lg:mt-[24px] lg:mb-[20px] mt-[40px] " />
 
@@ -438,9 +441,9 @@ function VendasB() {
 
                                 {/* Coluna 3 Pacote diamente */}
                                 <div className=" lg:w-1/3 text-center lg:p-4 mt-[40px] lg:mt-[0]">
-                                    <div className="bg-[#000] text-center pt-[40px] md:pt-[40px]  lg:pb-[60px] pb-[40px] p-4 lg:px-[40px]  rounded-lg">
+                                    <div className="bg-[#000] text-center pt-[40px] md:pt-[40px]  lg:pb-[60px] pb-[40px] p-4 lg:px-[40px] lg:pt-[60px]  rounded-lg">
                                         {/* mais vendido */}
-                                        <img src="/imgpgvendas/maisvendidov2.webp" alt="Pacote experience" className="mx-auto md:w-[150px] lg:w-[200px] lg:-mt-[54px] -mt-[54px] lg:mb-[40px] mb-[40px]" />
+                                        {/* <img src="/imgpgvendas/maisvendidov2.webp" alt="Pacote experience" className="mx-auto md:w-[150px] lg:w-[200px] lg:-mt-[54px] -mt-[54px] lg:mb-[40px] mb-[40px]" /> */}
 
                                         <img src="/imgpgvendas/pacotediamondv2.webp" alt="Pacote experience" className="mx-auto md:w-[155px] lg:w-[155px]" />
                                         <hr className="my-2 divide-stone-300 lg:mt-[24px] lg:mb-[20px] mt-[40px] " />
