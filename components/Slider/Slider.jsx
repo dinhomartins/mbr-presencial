@@ -13,13 +13,13 @@ function ImageSwitcher() {
       <div className="flex  space-x-4 w-[300px] ">
         {/* Botões */}
         <button onClick={() => handleButtonClick(1)}>
-          <img src="/imgpgvendas/26.webp" alt="Botão 1" className={activeImage === 1 ? 'opacity-100' : 'opacity-20'} />
+          <img src="/imgpgvendas/03.webp" alt="Botão 1" className={activeImage === 1 ? 'opacity-100' : 'opacity-20'} />
         </button>
         <button onClick={() => handleButtonClick(2)}>
-          <img src="/imgpgvendas/27.webp" alt="Botão 2" className={activeImage === 2 ? 'opacity-100' : 'opacity-20'} />
+          <img src="/imgpgvendas/04.webp" alt="Botão 2" className={activeImage === 2 ? 'opacity-100' : 'opacity-20'} />
         </button>
         <button onClick={() => handleButtonClick(3)}>
-          <img src="/imgpgvendas/28.webp" alt="Botão 3" className={activeImage === 3 ? 'opacity-100' : 'opacity-20'} />
+          <img src="/imgpgvendas/05.webp" alt="Botão 3" className={activeImage === 3 ? 'opacity-100' : 'opacity-20'} />
         </button>
       </div>
 
