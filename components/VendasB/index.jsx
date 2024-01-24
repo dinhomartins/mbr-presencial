@@ -69,18 +69,18 @@ function VendasB() {
                         <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left ">
                             <div className=" flex flex-col lg:text-left relative  max-w-[1100px] mx-auto lg:mt-[10px] lg:pr-[60px] pr-[] ">
 
-                                <h3 className="font-['Libre Caslon Text'] text-[20px]  lg:text-[30px] mt-[15px] lg:mt-0 tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[36px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}>
-                                    Um movimento de mulheres que desejam revolucionar a autoestima, conquistar liberdade financeira e resgatar a melhor versão de si mesmas
+                                <h3 className="font-['Libre Caslon Text'] text-[20px]  lg:text-[28px] mt-[15px] lg:mt-0 tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]" style={{ fontFamily: "'Libre Caslon Text', serif" }}>
+                                Toda mulher pode ser Bem Resolvida, livre e independente, mas muitas se perdem ao longo da jornada. Descubra o caminho para uma vida bem resolvida.
                                 </h3>
                                 <h4 className="font-['Lato'] text-[16px] text-[#A7A0A0] lg:text-[20px] lg:mt-[20px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px] lg:leading-[26px] leading-[20px]" style={{ fontFamily: "'Lato', serif" }}>
-                                    Clique no botão abaixo para garantir o seu ingresso com preço promocional de pré-venda e <b>participar deste movimento de mulheres:</b>
+                                Três dias de exercícios práticos, desbloqueios emocionais e transformações profundas para você iniciar a sua nova jornada.
                                 </h4>
 
                                 <button
                                     className="bg-[#DC8F60] justify-center hidden lg:block md:block  items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px] max-w-[600px] lg:h-[64px] w-full  text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px] lg:w-full md:w-[500px] w-[146px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
                                     href="" onClick={handleClickScroll}
                                 >
-                                    QUERO PARTICIPAR DO BEM-RESOLVIDA
+                                    QUERO SER UMA MULHER BEM RESOLVIDA
                                 </button>
                                 <h4 className="font-['Lato']  text-[16px]  lg:text-[20px] lg:mt-[20px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px] lg:leading-[26px]" style={{ fontFamily: "'Lato', serif" }}>
                                     Assista ao vídeo e entenda <b>o que você vai encontrar no evento</b>
@@ -108,7 +108,7 @@ function VendasB() {
                                     className="bg-[#DC8F60]  lg:hidden md:hidden justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px] max-w-[600px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px] lg:w-[700px] md:w-[400px]  w-[146px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
                                     href="" onClick={handleClickScroll}
                                 >
-                                    QUERO PARTICIPAR DO BEM-RESOLVIDA
+                                    QUERO PARTICIPAR DO BEM RESOLVIDA
                                 </button>
                                 <h4 className="font-['Lato'] hidden lg:hidden md:hidden text-[16px]  lg:text-[20px] lg:mt-[20px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px] lg:leading-[26px]" style={{ fontFamily: "'Lato', serif" }}>
                                     Assista ao vídeo e entenda <b>o que você vai encontrar no evento</b>
@@ -219,7 +219,7 @@ function VendasB() {
                                 <div className="text-center lg:text-left relative">
                                     <span className="hidden lg:block bg-[#E1B16F] h-[55px] w-[2px] absolute bottom-2 -left-5"></span>
                                     <h3 className="font-['archivo'] text-[#A7A0A0] text-left text-[16px] lg:text-[18px] mt-[26px] lg:mt-0 tracking-[2px] lg:tracking-[5px] font-semibold">
-                                        É um evento presencial, que vai acontecer nos dias 26, 27 e 28 de abril em Brasília.
+                                        É um evento presencial, que vai acontecer nos dias 03, 04 e 05 de maio em Brasília.
                                     </h3>
                                 </div>
                                 <p className="lg:mt-[55px] mt-[20px] lg:text-[20px]">Não tem preço experimentar a liberdade de decidir a própria vida: o seu futuro, o futuro que você quer dar para os seus filhos, os sonhos que você quer tentar, as portas que você quer tentar abrir. A liberdade de escolher quem você quer que esteja ao seu lado.
@@ -357,7 +357,7 @@ function VendasB() {
 
                                         <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
                                             <img src="/imgpgvendas/cancel.webp" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
-                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia no dia 25 de abril, quinta-feira</p>
+                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia</p>
                                         </div>
 
                                         <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
@@ -419,7 +419,7 @@ function VendasB() {
 
                                         <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
                                             <img src="/imgpgvendas/cancel.webp" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
-                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia no dia 25 de abril, quinta-feira</p>
+                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia</p>
                                         </div>
 
                                         <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
@@ -477,7 +477,7 @@ function VendasB() {
 
                                         <div className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]" style={{ fontFamily: "'Lato', serif" }}>
                                             <img src="/imgpgvendas/check.png" alt="Imagem Coluna 1" className="w-[18px] h-[13px] " />
-                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia no dia 25 de abril, quinta-feira</p>
+                                            <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">Jantar especial com a Cátia</p>
                                         </div>
 
                                         <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
