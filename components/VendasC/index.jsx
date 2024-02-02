@@ -14,11 +14,19 @@ import { useUtmParserSalesDiamante } from "../HotmartTrackingDiamante";
 
 import Section1Header from "../Section1Header";
 import Section3FundoRed from "../Section3FundoRed";
+import SectionVideo from "../SectionVideo";
+import Section4Cards from "../Section4Cards";
+import Section5Oferta from "../Section5Oferta";
+import Section6Amigas from "../Section6Amigas";
+import SectionCatiaAssinatura from "../SectionCatiaAssinatura";
+import Section7Perguntas from "../Section7Perguntas";
+import SubFooter2 from "../SubFooter2";
+import FooterPgC from "../FooterPgC";
 
-// Componentes importados dinamicamente
-const ImageSwitcher = dynamic(() => import('../Slider/Slider'), { ssr: false });
-const Acordeon = dynamic(() => import('../Accordeon'), { ssr: false });
-const CarouselComponent = dynamic(() => import('../Carrossel'), { ssr: false });
+// // Componentes importados dinamicamente
+// const ImageSwitcher = dynamic(() => import('../Slider/Slider'), { ssr: false });
+// const Acordeon = dynamic(() => import('../Accordeon'), { ssr: false });
+// const CarouselComponent = dynamic(() => import('../Carrossel'), { ssr: false });
 
 
 function VendasC() {
@@ -42,6 +50,16 @@ function VendasC() {
 
             <Section1Header />
             <Section3FundoRed />
+            <SectionVideo />
+            <Section4Cards />
+            <Section5Oferta />
+            <Section6Amigas />
+           <SectionCatiaAssinatura />
+           <Section7Perguntas />
+            <SubFooter2 />
+            <FooterPgC />
+
+           
 
 
 
