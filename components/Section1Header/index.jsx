@@ -31,6 +31,7 @@ export default function Section1Header() {
                   width={526}
                   height={72}
                   alt="Bem resolvida"
+                  loading="lazy"
                 />
                 <h3
                   className=" text-[#fff]  text-[20px]  lg:text-[24px] mt-[15px] lg:mt-[20px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]"
@@ -65,6 +66,7 @@ export default function Section1Header() {
                   width={526}
                   height={72}
                   alt="Bem resolvida"
+                  loading="lazy"
                 />
 
                 <button
@@ -85,6 +87,7 @@ export default function Section1Header() {
                 width={526}
                 height={72}
                 alt="Bem resolvida"
+                loading="lazy"
               />
             </div>
           </div>
@@ -92,8 +95,16 @@ export default function Section1Header() {
           {/* s2 */}
 
           <div className="max-w-[1196px] w-full mx-auto lg:p-4 lg:pt-[80px] mt-[60px] text-center lg:pb-[80px]">
+          <Image
+                  className="mx-auto  w-[20px] mt-[20px] lg:w-[20px] "
+                  src={"/imgpgvendas/seta.webp"}
+                  width={20}
+                  height={72}
+                  alt="Bem resolvida"
+                  loading="lazy"
+                />
             <h2
-              className="text-xl text-center  lg:text-center text-left lg:mb-[40px] mb-[10px] text-[#E0A45B]  text-[24px] lg:text-[20px] "
+              className=" text-center  lg:text-center text-left  mb-[10px] text-[#E0A45B]  text-[24px] lg:text-[28px] "
               style={{ fontFamily: "'Archivo', serif" }}
             >
               INGRESSOS
@@ -105,7 +116,7 @@ export default function Section1Header() {
               style={{ fontFamily: "'Epilogue', serif" }}
             >
               O encontro Rem Resolvida é{" "}
-              <span className="text-[#DB8E60]">para mulheres que querem:</span>
+              <span className="text-[#DB8E60] italic ">para mulheres que querem:</span>
             </h2>
 
             <h2
@@ -113,7 +124,7 @@ export default function Section1Header() {
               style={{ fontFamily: "'Epilogue', serif" }}
             >
               O encontro Rem Resolvida é <br></br>
-              <span className="text-[#DB8E60]">para mulheres que querem:</span>
+              <span className="text-[#fff] italic ">para mulheres que querem:</span>
             </h2>
 
             <h3
@@ -131,6 +142,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B]  mt-[20px]"
@@ -154,6 +166,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"
@@ -177,6 +190,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"
@@ -205,6 +219,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"
@@ -228,6 +243,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"
@@ -251,6 +267,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"
@@ -280,6 +297,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"
@@ -303,6 +321,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"
@@ -326,6 +345,7 @@ export default function Section1Header() {
                   width={277}
                   height={435}
                   className="lg:w-[130px] w-[100px]"
+                  loading="lazy"
                 />
                 <h2
                   className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]"

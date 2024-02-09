@@ -27,7 +27,7 @@ export default function Section3FundoRed() {
 
                 {/* txt mobile */}
                 <h2
-                  className="text-xl font-bold text-[#fff] leading-[24px]  lg:text-[32px]  lg:mt-[45px]   "
+                  className="text-xl font-bold text-[#fff] leading-[24px] leading-[32px] lg:text-[32px]  lg:mt-[45px]   "
                   style={{ fontFamily: "'Epilogue', serif" }}
                 >
                   <span className="font-normal">
@@ -75,6 +75,7 @@ export default function Section3FundoRed() {
                   width={526}
                   height={72}
                   alt="Bem resolvida"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -91,6 +92,7 @@ export default function Section3FundoRed() {
                   width={526}
                   height={72}
                   alt="Bem resolvida"
+                  loading="lazy"
                 />
               </div>
 

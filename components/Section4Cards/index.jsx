@@ -28,7 +28,7 @@ export default function Section4Cards() {
             >
               <span className="font-normal ">
                 3 dias de desbloqueios, exercícios, transformações intensas,
-                práticas e conexões
+                práticas e conexões {" "}
               </span>
               para você escrever uma nova história
             </h2>
@@ -44,6 +44,7 @@ export default function Section4Cards() {
                     width={526}
                     height={72}
                     alt="Bem resolvida"
+                    loading="lazy"
                   />
                 </div>
                 <div className="flex-1 p-4">
@@ -53,6 +54,7 @@ export default function Section4Cards() {
                     width={526}
                     height={72}
                     alt="Bem resolvida"
+                    loading="lazy"
                   />
                 </div>
                 <div className="flex-1 p-4">
@@ -62,6 +64,7 @@ export default function Section4Cards() {
                     width={526}
                     height={72}
                     alt="Bem resolvida"
+                    loading="lazy"
                   />
                 </div>
               </div>

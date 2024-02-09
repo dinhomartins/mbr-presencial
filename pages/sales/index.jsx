@@ -1,8 +1,10 @@
 import React from "react";
-import Vendas from '@/components/Vendas'
+import Head from 'next/head';
+import VendasC from '@/components/VendasC'
 
 export default function sales() {
  return (
-  <Vendas />
+  
+  <VendasC />
   );
 }

@@ -28,7 +28,7 @@ export default function SectionVideo() {
             >
               <span className="font-normal">
                 {" "}
-                Um pouco do que você vai viver na imersão
+                Um pouco do que você vai viver na imersão 
               </span>
               que vai ativar sua versão Bem Resolvida
             </h2>
@@ -44,6 +44,7 @@ export default function SectionVideo() {
                 frameBorder="0"
                 allowFullScreen
                 className="mx-auto lg:mx-0 rounded-xl w-[350px]  h-[220px] lg:w-[956px] lg:h-[550px] mt-[10px] lg:-mt-[10px]"
+                loading="lazy"
               ></iframe>
             </div>
           </div>
@@ -58,6 +59,7 @@ export default function SectionVideo() {
                 width={526}
                 height={72}
                 alt="Bem resolvida"
+                loading="lazy"
               />
 
               <a

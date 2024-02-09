@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
 import Image from "next/image";
 
 const responsive = {
@@ -35,12 +36,17 @@ export default function CarrosselSection() {
     return (
         <div className="flex flex-col">
             <Carousel responsive={responsive}
+            
                 customDot={customDotStyles}
+                ssr={true}
+                autoPlaySpeed={1000}
+                transitionDuration={500}
 
             >
                 <div className="text-left w-full  rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px] lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c01.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B]  mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}   >
                         Autoestima
@@ -54,6 +60,7 @@ export default function CarrosselSection() {
                 <div className="text-left w-full  rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px]  lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c02.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}>
                         Autoconfiança
@@ -66,6 +73,7 @@ export default function CarrosselSection() {
                 <div className="text-left  w-full rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px]  lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c03.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}>
                         Sensualidade
@@ -91,6 +99,7 @@ export default function CarrosselSection() {
                 <div className="text-left w-full  rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px]  lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c05.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}>
                         Independência
@@ -104,6 +113,7 @@ export default function CarrosselSection() {
                 <div className="text-left  w-full rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px]  lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c06.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}>
                         Família
@@ -117,6 +127,7 @@ export default function CarrosselSection() {
                 <div className="text-left w-full  rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px]  lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c07.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}>
                         Mentalidade de
@@ -130,6 +141,7 @@ export default function CarrosselSection() {
                 <div className="text-left w-full  rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px]  lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c08.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}>
                         Ambiência
@@ -142,6 +154,7 @@ export default function CarrosselSection() {
                 <div className="text-left  w-full rounded-lg lg:p-[20px] bg-[#131211]  hover:bg-[#131211] p-[40px]  lg:p-[50px] pt-[40px] pb-[40px]">
                     <Image src="/imgpgvendas/c09.webp" alt="Imagem 1" width={277} height={435}
                         className="lg:w-[130px] w-[100px]"
+                        loading="lazy"
                     />
                     <h2 className="text-[24px] text-[#E0A45B] lg:mt-[20px] mt-[20px]" style={{ fontFamily: "'Epilogue', serif" }}>
                         Prosperidade

@@ -25,3 +25,62 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+.faixamaisvendido{
+  padding-top: 0;
+}
+
+
+.react-multi-carousel-list
+  .react-multi-carousel-track
+  .react-multi-carousel-item {
+  z-index: -10px !important;
+}
+
+.react-multi-carousel-track {
+  z-index: -10px !important;
+}
+
+.react-multi-carousel-item {
+  z-index: -10px !important;
+}
+
+.carouselItem {
+  margin-right: 20px !important;
+}
+
+.react-multiple-carousel__arrow,
+.react-multiple-carousel__arrow--left {
+  margin-left: -10px;
+  z-index: 500000;
+  background-color: #00000023 !important;
+}
+
+.react-multiple-carousel__arrow,
+.react-multiple-carousel__arrow--right {
+  margin-right: -10px;
+  z-index: 500000;
+  background-color: #e9070723 !important;
+}
+
+.react-multiple-carousel__arrow:hover,
+.react-multiple-carousel__arrow--left:hover {
+  background-color: #000 !important;
+}
+
+@media (min-width: 1024px) {
+  .carouselItem {
+    margin-right: 10px !important;
+    margin-left: 8px !important;
+  }
+
+  .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    margin-left: -50px;
+    z-index: 500000 !important;
+  }
+
+  .react-multiple-carousel__arrow,
+  .react-multiple-carousel__arrow--right {
+    margin-right: -50px;
+  }
+}

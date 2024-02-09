@@ -36,6 +36,7 @@ export default function Section6Amigas() {
         width={371}
         height={97}
         alt="Data"
+        loading="lazy"
       />
     </div>
   );

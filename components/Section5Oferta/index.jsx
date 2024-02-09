@@ -52,7 +52,7 @@ export default function Section5Oferta() {
             <div className="  flex flex-col lg:flex-row  " id="oferta">
               {/* pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px] p-4 lg:px-[40px]  */}
               <div className="  lg:w-1/3  text-center lg:p-4   lg:pb-[60px] pb-[40px]">
-                <div className="bg-[#121212] text-center  rounded-lg">
+                <div className="bg-[#161616] text-center  rounded-lg">
                   <div className="w:full  bg-gradient-to-r from-[#FD4938] to-[#DA001B] lg:pt-[30px] lg:pb-[30px]">
                     <Image
                       src="/imgpgvendas/pacotepratav4.webp"
@@ -60,10 +60,23 @@ export default function Section5Oferta() {
                       className="mx-auto md:w-[124px] w-[100px] py-[20px] lg:py-[0] lg:w-[124px]"
                       width={526}
                       height={72}
+                      loading="lazy"
                     />
                   </div>
+                  <a target="_blank"
+                      href={utmPrata}>
+                  <Image
+                      src="/imgpgvendas/btncompraragora.webp"
+                      alt="Pacote experience"
+                      className="mx-auto md:w-[124px] w-[200px] lg:-mt-[14px] -mt-[14px]  lg:py-[0] lg:w-[260px]"
+                      width={526}
+                      height={72}
+                      loading="lazy"
+                    />
+                  </a>
 
                   <div className="pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px] p-4 lg:px-[40px]">
+                  
                     <div className="flex flex-start  lg:pt-[10px]  md:pt-[20px] pt-[10px] ">
                       <Image
                         src="/imgpgvendas/check.png"
@@ -71,6 +84,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <span
                         className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px] md:-mt-[10px] -mt-[10px] ml-[10px] md:ml-[10px]"
@@ -90,6 +104,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px]"
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px]  md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px] md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Material de Apoio
@@ -106,6 +121,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Certificado digital<br></br>de participação
@@ -122,6 +138,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Acesso a lugares mais próximos ao palco
@@ -138,6 +155,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Acesso ao coffeebreak durante o evento
@@ -154,6 +172,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Jantar especial com a Cátia
@@ -166,13 +185,15 @@ export default function Section5Oferta() {
                       src="/imgpgvendas/p1v2.webp"
                       alt="Imagem Coluna 1"
                       className="mx-auto mt-[20px]"
+                      loading="lazy"
                     />
                     <p
                       className="my-2 text-[18px] text-[#CCCCCC] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5"
                       style={{ fontFamily: "'Lato', serif" }}
                     >
-                      Garanta seu<br></br>
-                      desconto de pré-venda
+                      Garanta seu <br />
+                      desconto de pré-venda  <br />
+                      do Pacote Prata 
                     </p>
 
                     {/* bptao primeira oferta */}
@@ -190,26 +211,38 @@ export default function Section5Oferta() {
 
               {/* Coluna 2 pacote ouro */}
               <div className=" lg:w-1/3 text-center lg:p-4 mt-[40px] lg:mt-[0] ">
-                <div className="bg-[#121212] text-center   rounded-lg">
+                <div className="bg-[#161616] text-center   rounded-lg">
                   {/* mais vendido */}
 
-                  <div className="bg-gradient-to-r  from-[#FD4938] to-[#DA001B] lg:pt-[34px] lg:pb-[30px] ">
-                    <Image
+                  <div className="bg-gradient-to-r  lg:pt-[34px]  lg:pb-[30px] bg-[url('/imgpgvendas/bgmaisvendido.webp')] bg-cover">
+                    {/* <Image
                       src="/imgpgvendas/vendido.webp"
                       alt="Pacote experience"
-                      className="mx-auto md:w-[150px] w-[180px] pt-[10px] lg:pt-[0]  lg:mb-[15px] lg:w-[200px] lg:-mt-[44px] -mt-[54px]   mb-[20px]"
+                      className="faixamaisvendido mx-auto md:w-[150px]  w-[180px]  lg:pt-[0]  lg:mb-[15px] lg:w-[200px] lg:-mt-[44px] -mt-[54px]   mb-[20px]"
                       width={526}
                       height={72}
-                    />
+                      loading="lazy"
+                    /> */}
                     <Image
                       src="/imgpgvendas/pacoteourov3.webp"
                       alt="Pacote experience"
-                      className="mx-auto md:w-[124px] w-[100px] pb-[10px] lg:pb-[0]  lg:w-[104px]"
+                      className="mx-auto md:w-[124px] w-[100px] pb-[30px] lg:pb-[0]  lg:w-[104px] pt-[20px] lg:pt-[0]"
                       width={526}
                       height={72}
+                      loading="lazy"
                     />
                   </div>
-
+                  <a target="_blank"
+                      href={utmOuro}>
+                  <Image
+                      src="/imgpgvendas/btncompraragora.webp"
+                      alt="Pacote experience"
+                      className="mx-auto md:w-[124px] w-[200px] lg:-mt-[14px] -mt-[14px]  lg:py-[0] lg:w-[260px]"
+                      width={526}
+                      height={72}
+                      loading="lazy"
+                    />
+                  </a>
                   <div className="pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px] p-4 lg:px-[40px]">
                     <div className="flex flex-start  lg:pt-[10px]  md:pt-[20px] pt-[10px] ">
                       <Image
@@ -218,6 +251,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <span
                         className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px] md:-mt-[10px] -mt-[10px] ml-[10px] md:ml-[10px]"
@@ -237,6 +271,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px]"
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px]  md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px] md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Material de Apoio
@@ -253,6 +288,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Certificado digital<br></br>de participação
@@ -269,6 +305,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Acesso a lugares mais próximos ao palco
@@ -285,6 +322,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Acesso ao coffeebreak durante o evento
@@ -301,6 +339,7 @@ export default function Section5Oferta() {
                         className="w-[18px] h-[13px] "
                         width={526}
                         height={72}
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Jantar especial com a Cátia
@@ -313,13 +352,15 @@ export default function Section5Oferta() {
                       src="/imgpgvendas/p2v2.webp"
                       alt="Imagem Coluna 1"
                       className="mx-auto mt-[20px]"
+                      loading="lazy"
                     />
                     <p
                       className="my-2 text-[18px] text-[#CCCCCC] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5"
                       style={{ fontFamily: "'Lato', serif" }}
                     >
-                      Garanta seu<br></br>
-                      desconto de pré-venda
+                      Garanta seu <br />
+                      desconto de pré-venda  <br />
+                      do Pacote Prata 
                     </p>
 
                     {/* bptao primeira oferta */}
@@ -336,7 +377,7 @@ export default function Section5Oferta() {
 
               {/* Coluna 3 Pacote diamente */}
               <div className=" lg:w-1/3 text-center lg:p-4 mt-[40px] lg:mt-[0]">
-                <div className="bg-[#121212] text-center   rounded-lg">
+                <div className="bg-[#161616] text-center   rounded-lg">
                   {/* mais vendido */}
                   {/* <img src="/imgpgvendas/maisvendidov2.webp" alt="Pacote experience" className="mx-auto md:w-[150px] lg:w-[200px] lg:-mt-[54px] -mt-[54px] lg:mb-[40px] mb-[40px]" /> */}
 
@@ -347,15 +388,27 @@ export default function Section5Oferta() {
                       className="mx-auto md:w-[124px] w-[120px] py-[20px] lg:py-[1px] lg:w-[174px]"
                       width={526}
                       height={72}
+                      loading="lazy"
                     />
                   </div>
-
+                  <a target="_blank"
+                      href={utmDiamante}>
+                  <Image
+                      src="/imgpgvendas/btncompraragora.webp"
+                      alt="Pacote experience"
+                      className="mx-auto md:w-[124px] w-[200px] lg:-mt-[14px] -mt-[14px]  lg:py-[0] lg:w-[260px]"
+                      width={526}
+                      height={72}
+                      loading="lazy"
+                    />
+                  </a>
                   <div className="pt-[40px] md:pt-[40px] lg:pb-[60px] pb-[40px] p-4 lg:px-[40px]">
                     <div className="flex flex-start  lg:pt-[10px]  md:pt-[20px] pt-[10px]  ">
                       <img
                         src="/imgpgvendas/check.png"
                         alt="Imagem Coluna 1"
                         className="w-[18px] h-[13px] "
+                        loading="lazy"
                       />
                       <span
                         className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px] md:-mt-[10px] -mt-[10px] ml-[10px] md:ml-[10px]"
@@ -373,6 +426,7 @@ export default function Section5Oferta() {
                         src="/imgpgvendas/check.png"
                         alt="Imagem Coluna 1"
                         className="w-[18px] h-[13px]"
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px]  md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px] md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Material de Apoio
@@ -387,6 +441,7 @@ export default function Section5Oferta() {
                         src="/imgpgvendas/check.png"
                         alt="Imagem Coluna 1"
                         className="w-[18px] h-[13px] "
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Certificado digital<br></br>de participação
@@ -401,6 +456,7 @@ export default function Section5Oferta() {
                         src="/imgpgvendas/check.png"
                         alt="Imagem Coluna 1"
                         className="w-[18px] h-[13px] "
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Acesso a lugares mais próximos ao palco
@@ -415,6 +471,7 @@ export default function Section5Oferta() {
                         src="/imgpgvendas/check.png"
                         alt="Imagem Coluna 1"
                         className="w-[18px] h-[13px] "
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Acesso ao coffeebreak durante o evento
@@ -429,6 +486,7 @@ export default function Section5Oferta() {
                         src="/imgpgvendas/check.png"
                         alt="Imagem Coluna 1"
                         className="w-[18px] h-[13px] "
+                        loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Jantar especial com a Cátia
@@ -441,13 +499,15 @@ export default function Section5Oferta() {
                       src="/imgpgvendas/p3v2.webp"
                       alt="Imagem Coluna 1"
                       className="mx-auto mt-[20px]"
+                      loading="lazy"
                     />
                     <p
                       className="my-2 text-[18px] text-[#CCCCCC] mt-[40px] lg:mt-[40px] lg:mb-[20px] leading-5"
                       style={{ fontFamily: "'Lato', serif" }}
                     >
-                      Garanta seu<br></br>
-                      desconto de pré-venda
+                      Garanta seu <br />
+                      desconto de pré-venda  <br />
+                      do Pacote Prata 
                     </p>
 
                     {/* bptao primeira oferta */}
@@ -478,6 +538,7 @@ export default function Section5Oferta() {
                     width={371}
                     height={87}
                     alt="Data"
+                    loading="lazy"
                   />
                 </div>
 
@@ -489,6 +550,7 @@ export default function Section5Oferta() {
                     width={371}
                     height={97}
                     alt="Data"
+                    loading="lazy"
                   />
                 </div>
 
@@ -500,6 +562,7 @@ export default function Section5Oferta() {
                     width={371}
                     height={97}
                     alt="Data"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -510,6 +573,7 @@ export default function Section5Oferta() {
               width={371}
               height={97}
               alt="Data"
+              loading="lazy"
             />
           </div>
           {/* fim garantia */}
@@ -525,6 +589,7 @@ export default function Section5Oferta() {
               width={371}
               height={97}
               alt="Data"
+              loading="lazy"
             />
            </a>
 

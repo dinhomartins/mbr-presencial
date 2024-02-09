@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function SectionCatiaAssinatura() {
   return (
-    <div className=" text-white  pt-[25px] lg:pt-[35px]   lg:bg-[#000] bg-[#000] bg-cover bg-no-repeat lg:pt-[200px]">
+    <div className=" text-white  pt-[25px] lg:pt-[35px]   lg:bg-[#000] bg-[#000] bg-cover bg-no-repeat">
       <Container>
-        <div className="lg:flex flex-col justify-center items-center max-w-[1179px] mx-auto pb-[40px] ">
+        <div className="lg:flex flex-col justify-center items-center max-w-[1179px] mx-auto pb-[40px]  lg:pt-[200px]">
           <div className="lg:flex flex-col justify-center items-center max-w-[909px] mx-auto ">
             <Image
               className="mx-auto lg:mx-0 "
@@ -15,6 +15,7 @@ export default function SectionCatiaAssinatura() {
               width={1196}
               height={600}
               alt="Bem resolvida"
+              loading="lazy"
             />
             <Image
               className="mx-auto lg:mx-0 w-[300px] lg:w-[534px]"
@@ -22,6 +23,7 @@ export default function SectionCatiaAssinatura() {
               width={44}
               height={32}
               alt="Bem resolvida"
+              loading="lazy"
             />
           </div>
 
@@ -61,6 +63,7 @@ export default function SectionCatiaAssinatura() {
                 width={44}
                 height={32}
                 alt="Bem resolvida"
+                loading="lazy"
               />
             </div>
 
@@ -70,6 +73,7 @@ export default function SectionCatiaAssinatura() {
                 width={44}
                 height={32}
                 alt="Bem resolvida"
+                loading="lazy"
               /></div>
            
             {/* Coluna 3 */}
@@ -79,6 +83,7 @@ export default function SectionCatiaAssinatura() {
                 width={44}
                 height={32}
                 alt="Bem resolvida"
+                loading="lazy"
               /></div>
             
             {/* Coluna 4 */}
@@ -89,6 +94,7 @@ export default function SectionCatiaAssinatura() {
                 width={44}
                 height={32}
                 alt="Bem resolvida"
+                loading="lazy"
               />
             </div>
           </div>

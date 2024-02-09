@@ -23,7 +23,7 @@ export default function Document() {
         />
 
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"></link>
-        <title>Festival Bem Resolvida</title>
+        <title>Encontro Bem Resolvida</title>
         <meta
           name="description"
           content=" Um movimento de mulheres que desejam revolucionar a autoestima, conquistar liberdade financeira e resgatar a melhor versão de si mesmas "

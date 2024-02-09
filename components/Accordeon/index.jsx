@@ -21,7 +21,7 @@ const AccordionItem = ({ title, content }) => {
 const Accordion = () => {
   return (
     <div className="accordion max-w-[1179px] w-full mx-auto ">
-      <AccordionItem title="01 - O que é o Bem-Resolvida?" content="O Bem-Resolvida é um evento presencial que vai acontecer nos dia 26, 27 e 28 de abril em Brasília - DF. Além de palestras e rodas de conversa, você vai encontrar mulheres que optaram por seguir pelo mesmo caminho de liberdade, seja financeiro, emocional ou pessoal. Nesse evento, você vai conhecer histórias e descobrir exatamente o que é necessário para ser uma mulher bem-resolvida em todas as áreas da sua vida." />
+      <AccordionItem title="01 - O que é o Bem-Resolvida?" content="O Bem-Resolvida é um evento presencial que vai acontecer nos dia 03, 04 e 05 de maio em Brasília - DF. Além de palestras e rodas de conversa, você vai encontrar mulheres que optaram por seguir pelo mesmo caminho de liberdade, seja financeiro, emocional ou pessoal. Nesse evento, você vai conhecer histórias e descobrir exatamente o que é necessário para ser uma mulher bem-resolvida em todas as áreas da sua vida." />
       <AccordionItem title="02 - Posso comprar apenas um dia de evento?" content="Não temos essa opção disponível, cada ingresso dá acesso aos 3 dias de evento." />
       <AccordionItem title="03 - Posso comprar mais de um ingresso?" content="Pode sim, mas após a compra é necessário que você preencha certinho o nome da participante de cada ingresso." />
       <AccordionItem title="04 - Meu ingresso dá acesso a todos os dias?" content="Sim, todos os ingressos dão acesso aos 3 dias de evento." />
