@@ -61,7 +61,7 @@ Ocorrerá no Quality Hotel SMAS - Setor de Múltiplas Atividades Sul, Trecho 3 C
       <AccordionItem title="11 - Tem estacionamento conveniado?" content=<>Sim, as alunas poderão contar com desconto especial no estacionamento conveniado, que fica no endereço abaixo (exatamente em frente ao Hotel):
 <br></br><br></br>
 Rua XYZ, nº XXX - Bairro XPTO - Brasília - DF</> />
-      <AccordionItem title="12 - Como funciona o uso de imagem?" content=<>Durante o credenciamento, você será convidada a assinar um termo de autorização deuso de imagem, caso queira aparecer nas filmagens do evento que serão usadas futuramente.
+      <AccordionItem title="12 - Como funciona o uso de imagem?" content=<>Durante o credenciamento, você será convidada a assinar um termo de autorização de uso de imagem, caso queira aparecer nas filmagens do evento que serão usadas futuramente.
 <br></br><br></br>
 Caso não queira aparecer, não tem problema: basta neste momento informar à equipe e você ficará alocada em um ambiente que não será filmado.
 </> />

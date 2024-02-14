@@ -50,7 +50,7 @@ export default function SectionCatiaAssinatura() {
               Somando mais de 20 anos de carreira, Cátia Damasceno já participou
               em quadros de destaque de programas de TV da Rede Globo e outras
               grandes emissoras, juntamente com dezenas de entrevistas para
-              jornais e revistas Brasil afora e segue espalhando meu
+              jornais e revistas Brasil afora e segue espalhando
               conhecimento em Podcasts de renome.
             </p>
           </div>

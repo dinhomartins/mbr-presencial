@@ -115,7 +115,7 @@ export default function Section1Header() {
               className="leading-[24px] lg:hidden text-center text-[#fff] lg:block lg:text-center text-left mb-[40px] font-bold  text-[24px] lg:text-[40px] lg:eading-[46px] "
               style={{ fontFamily: "'Epilogue', serif" }}
             >
-              O encontro Rem Resolvida é{" "}
+              O encontro Bem Resolvida é{" "}
               <span className="text-[#DB8E60] italic ">para mulheres que querem:</span>
             </h2>
 
@@ -123,7 +123,7 @@ export default function Section1Header() {
               className="text-[20px] leading-[24px] hidden text-center text-[#fff] lg:block lg:text-center text-left mb-[40px] font-bold  text-[24px] lg:text-[40px] leading-[46px] "
               style={{ fontFamily: "'Epilogue', serif" }}
             >
-              O encontro Rem Resolvida é <br></br>
+              O encontro Bem Resolvida é <br></br>
               <span className="text-[#fff] italic ">para mulheres que querem:</span>
             </h2>
 

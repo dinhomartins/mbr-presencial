@@ -166,7 +166,7 @@ export default function CarrosselSection() {
                 </div>
 
 
-            </Carousel>;
+            </Carousel>
         </div>
     );
 }

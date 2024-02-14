@@ -17,9 +17,9 @@ export default function SectionVideo() {
             >
               <span className="font-normal">
                 {" "}
-                Um pouco do que você vai viver na imersão<br></br>
+                Um pouco do que você vai viver na imersão  <br></br>
               </span>
-              que vai ativar sua versão Bem Resolvida
+               que vai ativar sua versão Bem Resolvida
             </h2>
 
             <h2
@@ -28,7 +28,7 @@ export default function SectionVideo() {
             >
               <span className="font-normal">
                 {" "}
-                Um pouco do que você vai viver na imersão 
+                Um pouco do que você vai viver na imersão  {" "}
               </span>
               que vai ativar sua versão Bem Resolvida
             </h2>
