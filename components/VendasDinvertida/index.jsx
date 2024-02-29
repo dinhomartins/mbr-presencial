@@ -14,7 +14,9 @@ import { useUtmParserSales } from '../HotmartTracking'
 import { useUtmParserSalesOuro } from '../HotmartTrackingOuro'
 import { useUtmParserSalesDiamante } from "../HotmartTrackingDiamante";
 
-import Section1Header from "../Section1Header";
+// import Section1Header from "../Section1Header";
+import Section1HeaderComOferta from "../Section1HeaderComOferta";
+import Section2ParaQuem from "../Section2ParaQuem"
 import WhattsFlutuante from "../WhattsFlutuante"
 // import Section3FundoRed from "../Section3FundoRed";
 // import SectionVideo from "../SectionVideo";
@@ -25,6 +27,8 @@ import WhattsFlutuante from "../WhattsFlutuante"
 // import Section7Perguntas from "../Section7Perguntas";
 // import SubFooter2 from "../SubFooter2";
 // import FooterPgC from "../FooterPgC";
+
+
 
 const Section3FundoRed = dynamic(() => import('../Section3FundoRed'), { ssr: false });
 const SectionVideo = dynamic(() => import('../SectionVideo'), { ssr: false });
@@ -43,7 +47,7 @@ const FooterPgC = dynamic(() => import('../FooterPgC'), { ssr: false });
 // const CarouselComponent = dynamic(() => import('../Carrossel'), { ssr: false });
 
 
-function VendasC() {
+function VendasD() {
 
     const utmPrata = useUtmParserSales()
     const utmOuro = useUtmParserSalesOuro()
@@ -74,12 +78,15 @@ function VendasC() {
         `}} />
       </Head>
 
-            <Section1Header />
+            <Section1HeaderComOferta />
+            <Section6Amigas />
+            <Section2ParaQuem />
+            
             <Section3FundoRed />
             <SectionVideo />
             <Section4Cards />
-            <Section5Oferta />
-            <Section6Amigas />
+            {/* <Section5Oferta /> */}
+            
             <SectionCatiaAssinatura />
             <Section7Perguntas />
             <SubFooter2 />
@@ -91,4 +98,4 @@ function VendasC() {
     );
 }
 
-export default VendasC
+export default VendasD

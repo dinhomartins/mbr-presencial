@@ -34,7 +34,7 @@ export default function Section1Header() {
                   loading="lazy"
                 />
                 <h3
-                  className=" text-[#fff]  text-[20px]  lg:text-[24px] mt-[15px] lg:mt-[20px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]"
+                  className=" text-[#fff]  text-[20px]  lg:text-[34px] lg:leading-[38px] font-semibold mt-[15px] lg:mt-[20px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   "
                   style={{
                     fontFamily: "'Epilogue', 'Libre Caslon Text', serif",
                   }}
@@ -44,7 +44,7 @@ export default function Section1Header() {
                 </h3>
 
                 <h3
-                  className="font-bold text-[20px] text-[#E0A45B] lg:mr-[150px] lg:text-[28px] mt-[15px] lg:mt-[10px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]"
+                  className="font-semibold text-[20px] text-[#E0A45B] lg:mr-[50px] lg:text-[34px] mt-[15px] lg:mt-[10px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]"
                   style={{
                     fontFamily: "'Epilogue', 'Libre Caslon Text', serif",
                   }}
@@ -80,7 +80,7 @@ export default function Section1Header() {
             </div>
 
             {/* lardo direito */}
-            <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left">
+            <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left ">
               <Image
                 className="mx-auto mx-0 lg:mx-0 w-full lg:w-[450px] lg:hidden"
                 src={"/imgpgvendas/catiamobiletopo.webp"}

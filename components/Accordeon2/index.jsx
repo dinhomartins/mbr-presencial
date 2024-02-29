@@ -58,9 +58,9 @@ Ocorrerá no Quality Hotel SMAS - Setor de Múltiplas Atividades Sul, Trecho 3 C
       <AccordionItem title="08 - Quais serão os dias e horários?" content="O encontro ocorre nos dias 03, 04 e 05 de maio. No dia 03 inicia às 08h, para credenciamento. Nos demais dias inicia às 09h e todos os dias encerra  às  20h30." />
       <AccordionItem title="09 - Como funciona o Credenciamento?" content="O credenciamento será presencial, no dia 03 de maio, às 08h. Na ocasião você receberá o crachá, que servirá como credencial de entrada nos demais dias do evento." />
       <AccordionItem title="10 - Como será a alimentação no dia do evento?" content="As alunas que optarem pelo plano Ouro ou Diamnond, terão acesso a coffe break liberado ao longo do evento. As que optarem pelo plano Prata, poderão levar lanchinhos ou comprar no serviço de café do hotel." />
-      <AccordionItem title="11 - Tem estacionamento conveniado?" content=<>Sim, as alunas poderão contar com desconto especial no estacionamento conveniado, que fica no endereço abaixo (exatamente em frente ao Hotel):
+      <AccordionItem title="11 - Tem estacionamento conveniado?" content=<>Sim, as alunas poderão contar com desconto especial no estacionamento conveniado em frente ao Hotel
 <br></br><br></br>
-Rua XYZ, nº XXX - Bairro XPTO - Brasília - DF</> />
+</> />
       <AccordionItem title="12 - Como funciona o uso de imagem?" content=<>Durante o credenciamento, você será convidada a assinar um termo de autorização de uso de imagem, caso queira aparecer nas filmagens do evento que serão usadas futuramente.
 <br></br><br></br>
 Caso não queira aparecer, não tem problema: basta neste momento informar à equipe e você ficará alocada em um ambiente que não será filmado.

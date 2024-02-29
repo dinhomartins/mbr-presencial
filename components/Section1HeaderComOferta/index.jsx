@@ -2,36 +2,135 @@ import React from "react";
 // import dynamic from 'next/dynamic';
 import Container from "@/components/Container";
 import Image from "next/image";
-
+import CarrosselSection from "../CarrosselSection";
 
 import { useUtmParserSales } from "../HotmartTracking";
 import { useUtmParserSalesOuro } from "../HotmartTrackingOuro";
 import { useUtmParserSalesDiamante } from "../HotmartTrackingDiamante";
 
-export default function Section5Oferta() {
+
+export default function Section1HeaderComOferta() {
+
   const utmPrata = useUtmParserSales();
   const utmOuro = useUtmParserSalesOuro();
   const utmDiamante = useUtmParserSalesDiamante();
 
+  const handleClickScroll = () => {
+    const element = document.getElementById("oferta");
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const font16 = "lg:text-[16px]"; // Defina o tamanho da fonte desejado
+
   return (
-    <div className="bg-[#000] lg:pt-[60px] text-white  pt-[60px] lg:pt-[35px] lg:bg-[url('/imgpgvendas/bgoferta.webp')] bg-[url('/imgpgvendas/bgoferta.webp')] bg-top bg-cover bg-no-repeat">
-      <Container>
-        {/* pai em coluna */}
-        <div className="flex flex-col">
-          <div className="max-w-[1196px] w-full mx-auto">
-            {/* Imagem Centralizada */}
-            <div className="text-center">
+    <div>
+      {/* S1 */}
+
+      <div className="lg:bg-[url('/imgpgvendas/b01d.webp')]  bg-[url('/imgpgvendas/b1m.webp')]   mx-auto pb-[40px] pt-[25px] lg:pt-[35px] lg:bg-top bg-botton lg:pb-[100px] md:bg-bottom bg-cover bg-no-repeat">
+        <Container>
+          {/* lado esquerdo */}
+          <div className="flex flex-col lg:flex-row lg:text-left relative  max-w-[1179px]  mx-auto lg:mt-[40px]">
+            <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left ">
+              <div className=" flex flex-col lg:text-left relative  max-w-[1100px] mx-auto lg:mt-[10px]  ] ">
+                <Image
+                  className="mx-auto lg:mx-0 w-[200px] lg:w-[450px]"
+                  src={"/imgpgvendas/encontro.webp"}
+                  width={526}
+                  height={72}
+                  alt="Bem resolvida"
+                  loading="lazy"
+                />
+                <h3
+                  className=" text-[#fff]  text-[20px]  lg:text-[34px] lg:leading-[38px] font-semibold mt-[15px] lg:mt-[20px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   "
+                  style={{
+                    fontFamily: "'Epilogue', 'Libre Caslon Text', serif",
+                  }}
+                >
+                  Toda mulher pode ser Bem Resolvida, livre e independente, mas
+                  muitas se perdem ao longo da jornada.
+                </h3>
+
+                <h3
+                  className="font-semibold text-[20px] text-[#E0A45B] lg:mr-[50px] lg:text-[34px] mt-[15px] lg:mt-[10px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]"
+                  style={{
+                    fontFamily: "'Epilogue', 'Libre Caslon Text', serif",
+                  }}
+                >
+                  Descubra o caminho para uma vida bem resolvida.
+                </h3>
+
+                <h4
+                  className=" text-[16px] text-[#fff] lg:text-[18px] lg:leading-[24px] lg:mt-[10px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px]  leading-[20px]"
+                  style={{ fontFamily: "'Lato', serif" }}
+                >
+                  Três dias de exercícios práticos, desbloqueios emocionais e
+                  transformações profundas para você iniciar a sua nova jornada.
+                </h4>
+
+                <Image
+                  className="mx-auto lg:mx-0 w-[300px] mt-[20px] lg:w-[450px] lg:mt-[20px]"
+                  src={"/imgpgvendas/datanova.webp"}
+                  width={526}
+                  height={72}
+                  alt="Bem resolvida"
+                  loading="lazy"
+                />
+
+                <button
+                  className="bg-[#179B7E] justify-center lg:mb-[0]  text-[#fff] lg:block md:block  items-center flex lg:mt-[30px] mt-[30px] text-center py-[10px] px-1 rounded-[4px] max-w-[450px] lg:h-[64px] w-full  text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px] lg:w-full md:w-[500px] w-[146px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
+                  href=""
+                  onClick={handleClickScroll}
+                >
+                  QUERO SER BEM RESOLVIDA
+                </button>
+              </div>
+            </div>
+
+            {/* lardo direito */}
+            <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left ">
               <Image
-                src={"/imgpgvendas/ingressosv2.webp"}
-                alt="Imagem Centralizada"
-                className="mx-auto lg:w-[210px] w-[140px]"
+                className="mx-auto mx-0 lg:mx-0 w-full lg:w-[450px] lg:hidden"
+                src={"/imgpgvendas/catiamobiletopo.webp"}
                 width={526}
                 height={72}
+                alt="Bem resolvida"
+                loading="lazy"
               />
+            </div>
+          </div>
+
+          {/* s2 */}
+
+          <div className="max-w-[1196px] w-full mx-auto lg:p-4  mt-[60px] text-center lg:pb-[80px]">
+
+
+
+
+
+
+            {/* oferta */}
+
+{/* pai em coluna */}
+<div className="flex flex-col">
+          <div className="max-w-[1196px] w-full mx-auto">
+            {/* Imagem Centralizada */}
+            <div className="text-center -mt-[60px] lg:mt-[0]">
+
+            <h2
+              className=" text-center  lg:text-center text-left  text-[#E0A45B]  text-[24px] lg:text-[28px] "
+              style={{ fontFamily: "'Archivo', serif" }}
+            >
+              INGRESSOS
+            </h2>
+
+    
 
               {/* Título Centralizado */}
               <h1
-                className="text-[28px] mb-[0] font-bold my-4 lg:text-[42px] lg:mt-[40px]"
+                className="text-[28px] mb-[0] font-bold my-4 text-[#fff] lg:text-[42px] "
                 style={{ fontFamily: "'Epilogue', serif" }}
               >
                 Valor da Experiência
@@ -39,7 +138,7 @@ export default function Section5Oferta() {
 
               {/* Texto Centralizado */}
               <p
-                className="mb-8 lg:text-[24px] font-normal"
+                className="mb-8 lg:text-[24px] font-normal text-[#fff]"
                 style={{ fontFamily: "'Lato', serif" }}
               >
                 O espetáculo 100% presencial que vai transformar sua vida
@@ -141,7 +240,7 @@ export default function Section5Oferta() {
                         loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                        <s>Acesso a lugares mais próximos ao palco</s>
+                       <s> Acesso a lugares mais próximos ao palco</s>
                       </p>
                     </div>
 
@@ -158,7 +257,7 @@ export default function Section5Oferta() {
                         loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                       <s> Acesso ao coffeebreak durante o evento</s>
+                        <s>Acesso ao coffeebreak durante o evento</s>
                       </p>
                     </div>
 
@@ -175,7 +274,7 @@ export default function Section5Oferta() {
                         loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                      <s> Jantar especial com a Cátia</s>
+                       <s> Jantar especial com a Cátia</s>
                       </p>
                     </div>
 
@@ -198,7 +297,7 @@ export default function Section5Oferta() {
 
                     {/* bptao primeira oferta */}
                     <a
-                      className="bg-[#179B7E] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
+                      className="bg-[#179B7E] text-[#fff] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
                       // href="https://pay.hotmart.com/X89033557B?off=bxifabag"
                       target="_blank"
                       href={utmPrata}
@@ -214,7 +313,7 @@ export default function Section5Oferta() {
                 <div className="bg-[#161616] text-center   rounded-lg">
                   {/* mais vendido */}
 
-                  <div className=" lg:pt-[34px]  lg:pb-[30px] lg:bg-[url('/imgpgvendas/bgmaisvendido.webp')] bg-[url('/imgpgvendas/masivendidomobilev2.webp')] bg-cover">
+                  <div className=" lg:pt-[34px]  lg:pb-[30px] lg:bg-[url('/imgpgvendas/bgmaisvendido.webp')] bg-[url('/imgpgvendas/masivendidomobilev2.webp')]  bg-cover">
                     {/* <Image
                       src="/imgpgvendas/vendido.webp"
                       alt="Pacote experience"
@@ -342,7 +441,7 @@ export default function Section5Oferta() {
                         loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                        <s>Jantar especial com a Cátia</s>
+                       <s> Jantar especial com a Cátia</s>
                       </p>
                     </div>
 
@@ -365,7 +464,7 @@ export default function Section5Oferta() {
 
                     {/* bptao primeira oferta */}
                     <a
-                      className="bg-[#179B7E] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
+                      className="bg-[#179B7E]  text-[#fff] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
                       href={utmOuro}
                       target="_blank"
                     >
@@ -512,7 +611,7 @@ export default function Section5Oferta() {
 
                     {/* bptao primeira oferta */}
                     <a
-                      className="bg-[#179B7E] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
+                      className="bg-[#179B7E]  text-[#fff] justify-center items-center flex lg:mt-[20px] mt-[20px] text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
                       href={utmDiamante}
                       target="_blank"
                     >
@@ -597,7 +696,32 @@ export default function Section5Oferta() {
 
 
         </div>
-      </Container>
+
+{/* fim oferta topo */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> 
+           
+        </Container>
+      </div>
+
+      {/* Fim S1 */}
     </div>
   );
 }

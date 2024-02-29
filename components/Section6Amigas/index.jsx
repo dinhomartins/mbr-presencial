@@ -24,8 +24,8 @@ export default function Section6Amigas() {
 
       <a
         className="bg-[#179B7E] justify-center items-center flex lg:mt-[20px]  text-center py-[10px] px-1 rounded-[4px]  lg:h-[64px] w-full text-[16px] lg:text-[18px] py-[17px] px-5 rounded-[4px]  w-[146px] font-semibold"
-        href=""
-        target="_blank"
+        href="#oferta"
+        
       >
         QUERO MEU INGRESSO
       </a>

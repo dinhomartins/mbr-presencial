@@ -1,12 +1,11 @@
 import React from "react";
-import VendasWhats from '@/components/VendasWhats'
+import Head from 'next/head';
+import VendasC from '@/components/VendasC'
 import VendasD from "@/components/VendasDinvertida";
-
-
 
 export default function sales() {
  return (
-  // <VendasWhats />
-  <VendasD />
+  
+  <VendasC />
   );
 }

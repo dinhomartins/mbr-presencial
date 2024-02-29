@@ -13,7 +13,7 @@ export function useUtmParserSales() {
     const content = getQueryValue("utm_content");
     // const sck = getQueryValue("sck");
     // const src = getQueryValue("src");
-    const link = `https://pay.hotmart.com/X89033557B?off=bxifabag&checkoutMode=10&sck=${source}&src=${source}|${medium}|${campaign}|${id}|${term}|${content}&utm_source=${source}&utm_medium=${medium}&utm_campaign=${campaign}&utm_id=${id}&utm_term=${term}&utm_content=${content}`;
+    const link = `https://pay.hotmart.com/X89033557B?off=ffa2loty&checkoutMode=10&sck=${source}&src=${source}|${medium}|${campaign}|${id}|${term}|${content}&utm_source=${source}&utm_medium=${medium}&utm_campaign=${campaign}&utm_id=${id}&utm_term=${term}&utm_content=${content}`;
     return link;
   }
 
