@@ -678,8 +678,8 @@ export default function Section1HeaderComOferta() {
           {/* fim garantia */}
 
           {/* cronograma */}
-          <div className="flex mx-auto justify-stretch max-w-[1179px] lg:-mb-[150px]">
-            {/* Coluna da esquerda */}
+          {/* <div className="flex mx-auto justify-stretch max-w-[1179px] lg:-mb-[150px]">
+          
 
            <a href="#oferta">
            <Image
@@ -692,7 +692,7 @@ export default function Section1HeaderComOferta() {
             />
            </a>
 
-          </div>
+          </div> */}
 
 
         </div>

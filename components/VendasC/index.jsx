@@ -79,7 +79,7 @@ function VendasC() {
             <SectionVideo />
             <Section4Cards />
             <Section5Oferta />
-            <Section6Amigas />
+            {/* <Section6Amigas /> */}
             <SectionCatiaAssinatura />
             <Section7Perguntas />
             <SubFooter2 />

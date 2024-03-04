@@ -54,8 +54,8 @@ export default function SectionVideo() {
           <div className="flex ">
             <div className="flex  lg:flex-row flex-col lg:w-[956px] justify-between lg:mt-[20px]">
               <Image
-                className="mx-auto lg:mx-0 w-[350px] lg:w-[325px] lg:h-[52px] mt-[10px] "
-                src={"/imgpgvendas/oferta.webp"}
+                className="mx-auto lg:mx-0 w-[350px] lg:w-[355px] lg:h-[52px] mt-[10px] "
+                src={"/imgpgvendas/valorfaixa.webp"}
                 width={526}
                 height={72}
                 alt="Bem resolvida"

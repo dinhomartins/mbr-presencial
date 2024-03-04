@@ -578,9 +578,9 @@ export default function Section5Oferta() {
           </div>
           {/* fim garantia */}
 
-          {/* cronograma */}
-          <div className="flex mx-auto justify-stretch max-w-[1179px] lg:-mb-[150px]">
-            {/* Coluna da esquerda */}
+          {/* amigas */}
+          {/* <div className="flex mx-auto justify-stretch max-w-[1179px] lg:-mb-[150px]">
+          
 
            <a href="#oferta">
            <Image
@@ -593,7 +593,7 @@ export default function Section5Oferta() {
             />
            </a>
 
-          </div>
+          </div> */}
 
 
         </div>

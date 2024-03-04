@@ -79,7 +79,7 @@ function VendasD() {
       </Head>
 
             <Section1HeaderComOferta />
-            <Section6Amigas />
+            {/* <Section6Amigas /> */}
             <Section2ParaQuem />
             
             <Section3FundoRed />
