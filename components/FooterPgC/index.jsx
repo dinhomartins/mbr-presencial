@@ -14,7 +14,7 @@ const FooterPgC = () => {
       <div className="flex flex-wrap justify-between items-center">
         {/* Primeira Coluna - Imagem */}
         <div className="w-full md:w-1/3 p-2 ">
-          <Image src="/imgpgvendas/bemresolvida.webp"  className='w-[250px] mx-auto lg:mx-[0] md:mx-[0]' alt="Imagem" width={100} height={100} />
+          <Image src="/imgpgvendas/logofooter.webp"  className='w-[250px] mx-auto lg:mx-[0] md:mx-[0]' alt="Imagem" width={100} height={100} />
         </div>
 
         {/* Segunda Coluna - Texto Centralizado */}
@@ -41,19 +41,19 @@ const FooterPgC = () => {
       {/* Segunda Linha com 2 Colunas */}
       <div className="flex flex-wrap justify-between mt-4 ">
         {/* Primeira Coluna - 3 Textos em Linha */}
-        <div className="w-full md:w-1/2 p-2 flex ">
+        {/* <div className="w-full md:w-1/2 p-2 flex ">
           <span className='lg:mr-[40px] text-[14px]'>Suporte</span>
           <span className='lg:mr-[40px] text-[14px]' >Termo de uso</span>
           <span className='lg:mr-[40px] text-[14px]'>Política de privacidade</span>
-        </div>
+        </div> */}
 
         {/* Segunda Coluna - Texto "Voltar ao Início" */}
-        <div className="w-full md:w-1/2 p-2 flex lg:justify-end md:justify-end justify-center">
+        {/* <div className="w-full md:w-1/2 p-2 flex lg:justify-end md:justify-end justify-center">
           <a href="" onClick={scrollToTop} className="flex items-center">
             <span className="mr-2">Voltar ao Topo</span>
             <Image src="/imgpgvendas/voltar.webp" alt="Top" width={20} height={20} />
           </a>
-        </div>
+        </div> */}
       </div>
       </Container>
     </footer>
