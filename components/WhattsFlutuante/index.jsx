@@ -6,7 +6,7 @@ const WhattsFlutuante = ({ phoneNumber }) => {
   const message = 'Adorei seu artigo';
 
   const handleClick = () => {
-    const whatsappLink = 'https://wa.me/5561992757800?text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+inscri%C3%A7%C3%A3o+do+EBR+e+preciso+tirar+algumas+d%C3%BAvidas';
+    const whatsappLink = 'https://wa.me/5561984408039?text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+inscri%C3%A7%C3%A3o+do+EBR+e+preciso+tirar+algumas+d%C3%BAvidas';
     window.open(whatsappLink, '_blank');
   };
 

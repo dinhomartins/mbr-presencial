@@ -43,7 +43,7 @@ export default function Section3FundoRed() {
                     {" "}
                     Descubra como acessar  {" "} <br></br>
                   </span>
-                  uma vida livre, independente, satisfatória Bem Resolvida!
+                  uma vida livre, independente, satisfatória e Bem Resolvida!
                 </h2>
                 {/* fim txt mobile */}
 
