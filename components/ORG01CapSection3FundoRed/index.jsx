@@ -4,12 +4,12 @@ import Container from "@/components/Container";
 import Image from "next/image";
 
 
-import BtnWhatsMeteoro from '../BtnWhatsMeteoroPago'
+import BtnWhatsMeteoro from '../BtnWhatsMeteoro'
 
 const btnOrg = BtnWhatsMeteoro()
 
 
-export default function FBCapSection3FundoRed() {
+export default function ORGCapSection3FundoRed() {
 
 
   const handleClickScroll = () => {

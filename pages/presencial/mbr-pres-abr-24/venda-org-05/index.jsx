@@ -25,7 +25,7 @@ const FooterPgC = dynamic(() => import('../../../../components/FooterPgC'), { ss
 
 
 
-function VendasC() {
+function CapturaOrg() {
     const utmPrata = useUtmParserSales()
     const utmOuro = useUtmParserSalesOuro()
     const utmDiamante = useUtmParserSalesDiamante()
@@ -53,19 +53,16 @@ function VendasC() {
 
             <S1 />
             <Section3FundoRed />
-            <SectionVideo />
-            <Section4Cards />
-            <Section5Oferta />
-            {/* <Section6Amigas /> */}
+           
             <SectionCatiaAssinatura />
-            <Section7Perguntas />
-            <SubFooter2 />
+ 
+         
             <FooterPgC />
-            <WhattsFlutuante />
+
         
         
         </div>
     );
 }
 
-export default VendasC
+export default CapturaOrg

@@ -1,11 +1,11 @@
 import React from "react";
-export default function BtnWhatsMeteoro() {
-    const font16 = "lg:text-[16px]"; // organico
+export default function BtnWhatsMeteoroPago() {
+    const font16 = "lg:text-[16px]"; // Pago
     return (
         <div className="lg:w-[500px]" >
             <a
                 className="bg-[#179B7E] mt-[20px] flex justify-center items-center w-full text-[#fff] py-[17px] px-5 rounded-[4px] max-w-[450px] lg:h-[64px] lg:w-full md:w-[500px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
-                href="https://devzapp.com.br/api-engennier/campanha/api/redirect/646e6fce8e50fd0001a1fb0f"
+                href="https://devzapp.com.br/api-engennier/campanha/api/redirect/64c0782b3d490000013c7eb2"
                 target="_blank"
             >
                 QUERO ENTRAR NO GRUPO

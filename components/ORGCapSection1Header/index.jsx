@@ -4,9 +4,9 @@ import Container from "@/components/Container";
 import Image from "next/image";
 import CarrosselSection from "../CarrosselSection";
 
-import BtnWhatsMeteoro from '../BtnWhatsMeteoroPago'
+import BtnWhatsMeteoro from '../BtnWhatsMeteoro'
 
-export default function FB01CapSection1Header(props) {
+export default function ORG01CapSection1Header(props) {
   const font16 = "lg:text-[16px]"; // Defina o tamanho da fonte desejado
 
 
@@ -19,8 +19,8 @@ export default function FB01CapSection1Header(props) {
           {/* lado esquerdo */}
           <div className="flex flex-col lg:flex-row lg:text-left relative  max-w-[1179px]  mx-auto lg:mt-[40px]">
             <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left ">
-            <div className=" flex flex-col text-left relative  max-w-[1100px] mx-auto lg:mt-[10px] ">
-              <Image
+              <div className=" flex flex-col text-left relative  max-w-[1100px] mx-auto lg:mt-[10px] ">
+                <Image
                   className=" lg:mx-0 w-[300px] lg:w-[450px]"
                   src={"/imgpgvendas/catialogo.webp"}
                   width={526}
@@ -53,7 +53,7 @@ export default function FB01CapSection1Header(props) {
 
             {/* lardo direito */}
             <div className="lg:w-1/2 md:w-1/2 text-center lg:text-left md:text-left ">
-            <Image
+              <Image
                 className="mx-auto mx-0 lg:mx-0 w-full lg:w-[450px] mt-[20px] lg:hidden"
                 src={"/imgpgvendas/catialivemobile.webp"}
                 width={526}
