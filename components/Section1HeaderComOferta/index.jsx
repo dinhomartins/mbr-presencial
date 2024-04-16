@@ -43,21 +43,13 @@ export default function Section1HeaderComOferta() {
                   alt="Bem resolvida"
                   loading="lazy"
                 />
-                <h3
+             <h3
                   className=" text-[#fff]  text-[20px]  lg:text-[34px] lg:leading-[38px] font-semibold mt-[15px] lg:mt-[20px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   "
                   style={{
                     fontFamily: "'Epilogue', 'Libre Caslon Text', serif",
                   }}
                 >
                   Revolucione sua autoestima e torne-se a mulher de sucesso,
-                </h3>
-
-                <h3
-                  className="font-semibold text-[20px] text-[#fff] lg:mr-[50px] lg:text-[34px]  lg:mt-[10px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]"
-                  style={{
-                    fontFamily: "'Epilogue', 'Libre Caslon Text', serif",
-                  }}
-                >
                   atraente e poderosa que sempre sonhou.
                 </h3>
 
@@ -277,6 +269,40 @@ Escreva um novo futuro para sua história!
                       </p>
                     </div>
 
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <Image
+                        src="/imgpgvendas/cancel0.webp"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        width={526}
+                        height={72}
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                        <s>Livro autografado</s>
+                      </p>
+                    </div>
+
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <Image
+                        src="/imgpgvendas/cancel0.webp"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        width={526}
+                        height={72}
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                        <s>joia personalizada</s>
+                      </p>
+                    </div>
+
                     <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
 
                     <img
@@ -444,6 +470,40 @@ Escreva um novo futuro para sua história!
                       </p>
                     </div>
 
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <Image
+                        src="/imgpgvendas/cancel0.webp"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        width={526}
+                        height={72}
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                        <s>Livro autografado</s>
+                      </p>
+                    </div>
+
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <Image
+                        src="/imgpgvendas/cancel0.webp"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        width={526}
+                        height={72}
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                        <s>joia personalizada</s>
+                      </p>
+                    </div>
+
                     <hr className="my-2 divide-stone-300 lg:mt-[20px] lg:mb-[20px] pt-[10px]  mt-[30px]" />
 
                     <img
@@ -588,6 +648,37 @@ Escreva um novo futuro para sua história!
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Jantar especial com a Cátia
+                      </p>
+                    </div>
+
+                    
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <img
+                        src="/imgpgvendas/check.png"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                       Livro autografado
+                      </p>
+                    </div>
+
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <img
+                        src="/imgpgvendas/check.png"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                        Joia personalizada
                       </p>
                     </div>
 

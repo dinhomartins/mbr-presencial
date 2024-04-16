@@ -18,7 +18,7 @@ export default function alice() {
  return (
   <>
   <S1 />
-  <S2FundoRed />
+  {/* <S2FundoRed /> */}
   <CapSectionVideo />
   <CapSection4Cards />
   <CapSection5Oferta />

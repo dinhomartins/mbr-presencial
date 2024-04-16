@@ -25,7 +25,7 @@ export default function intimi() {
  return (
   <>
   <S1 />
-  <S2FundoRed />
+  {/* <S2FundoRed /> */}
   <CapSectionVideoIntimi />
   <CapSection4Cards />
   <CapSection5OfertaIntimi />

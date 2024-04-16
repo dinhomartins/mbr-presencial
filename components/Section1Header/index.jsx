@@ -40,16 +40,10 @@ export default function Section1Header() {
                   }}
                 >
                   Revolucione sua autoestima e torne-se a mulher de sucesso,
-                </h3>
-
-                <h3
-                  className="font-semibold text-[20px] text-[#fff] lg:mr-[50px] lg:text-[34px]  lg:mt-[10px] tracking-[2px] lg:tracking-[1px]  leading-[26px]   lg:leading-[34px]"
-                  style={{
-                    fontFamily: "'Epilogue', 'Libre Caslon Text', serif",
-                  }}
-                >
                   atraente e poderosa que sempre sonhou.
                 </h3>
+
+    
 
                 <h4
                   className=" text-[16px] text-[#fff] lg:text-[18px] lg:leading-[24px] lg:mt-[10px] mt-[10px] lg:mt-0 tracking-[2px] lg:tracking-[1px]  leading-[20px]"

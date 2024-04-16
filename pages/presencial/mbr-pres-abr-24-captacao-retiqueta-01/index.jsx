@@ -25,7 +25,7 @@ export default function masterLove() {
  return (
   <>
   <S1 />
-  <S2FundoRed />
+  {/* <S2FundoRed /> */}
   <CapSectionVideoRetiqueta />
   <CapSection4Cards />
   <CapSection5OfertaRetiqueta />

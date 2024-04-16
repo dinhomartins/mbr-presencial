@@ -16,10 +16,9 @@ export default function Section4Cards() {
               style={{ fontFamily: "'Epilogue', serif" }}
             >
               <span className="font-normal ">
-                3 dias de desbloqueios, exercícios,<br></br> transformações
-                intensas, práticas e conexões<br></br>
+              3 dias de exercícios e formações intensas, <br></br>  para você aprender o método SPA:<br></br>
               </span>
-              para você escrever uma nova história
+              como ser uma mulher de sucesso, próspere atraente.
             </h2>
 
             <h2
@@ -27,10 +26,9 @@ export default function Section4Cards() {
               style={{ fontFamily: "'Epilogue', serif" }}
             >
               <span className="font-normal ">
-                3 dias de desbloqueios, exercícios, transformações intensas,
-                práticas e conexões {" "}
+              3 dias de exercícios e formações intensas, <br></br>  para você aprender o método SPA:<br></br>
               </span>
-              para você escrever uma nova história
+              como ser uma mulher de sucesso, próspere atraente.
             </h2>
           </div>
 

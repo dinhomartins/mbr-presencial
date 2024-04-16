@@ -38,7 +38,7 @@ export default function FB01CapSection1Header(props) {
                 </h3>
                 <Image
                   className=" lg:mx-0 w-full mt-[20px] lg:w-[450px] lg:mt-[20px]"
-                  src={"/imgpgvendas/datalive.webp"}
+                  src={"/imgpgvendas/conteudoinedito.webp"}
                   width={526}
                   height={72}
                   alt="Bem resolvida"

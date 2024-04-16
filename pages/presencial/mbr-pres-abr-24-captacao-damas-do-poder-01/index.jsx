@@ -25,7 +25,7 @@ export default function sales() {
  return (
   <>
   <S1 />
-  <S2FundoRed />
+  {/* <S2FundoRed /> */}
   <CapSectionVideo />
   <CapSection4Cards />
   <CapSection5Oferta />

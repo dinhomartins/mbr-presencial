@@ -24,7 +24,7 @@ export default function keniagama01() {
  return (
   <>
   <S1 />
-  <S2FundoRed />
+  {/* <S2FundoRed /> */}
   <CapSectionVideoKenia />
   <CapSection4Cards />
   <CapSection5OfertaKenia />

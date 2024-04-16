@@ -25,7 +25,7 @@ export default function analisboa() {
  return (
   <>
   <S1 />
-  <S2FundoRed />
+  {/* <S2FundoRed /> */}
   <CapSectionVideoKenia />
   <CapSection4Cards />
   <CapSection5OfertAna />

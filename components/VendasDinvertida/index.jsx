@@ -82,7 +82,7 @@ function VendasD() {
             {/* <Section6Amigas /> */}
             <Section2ParaQuem />
             
-            <Section3FundoRed />
+            {/* <Section3FundoRed /> */}
             <SectionVideo />
             <Section4Cards />
             {/* <Section5Oferta /> */}

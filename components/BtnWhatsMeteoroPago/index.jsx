@@ -5,7 +5,7 @@ export default function BtnWhatsMeteoroPago() {
         <div className="lg:w-[500px]" >
             <a
                 className="bg-[#179B7E] mt-[20px] flex justify-center items-center w-full text-[#fff] py-[17px] px-5 rounded-[4px] max-w-[450px] lg:h-[64px] lg:w-full md:w-[500px] font-semibold hover:scale-125 transition duration-500 cursor-pointer"
-                href="https://devzapp.com.br/api-engennier/campanha/api/redirect/64c0782b3d490000013c7eb2"
+                href="https://pp.catiadamasceno.com.br/mbr-pres-mt-tpg-grupos-wpp"
                 target="_blank"
             >
                 QUERO ENTRAR NO GRUPO

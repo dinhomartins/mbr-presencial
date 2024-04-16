@@ -75,7 +75,7 @@ function VendasC() {
       </Head>
 
             <Section1Header />
-            <Section3FundoRed />
+            {/* <Section3FundoRed /> */}
             <SectionVideo />
             <Section4Cards />
             <Section5Oferta />
