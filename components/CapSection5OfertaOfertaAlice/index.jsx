@@ -164,22 +164,7 @@ export default function CapSection5OfertaOfertaAlice() {
                       </p>
                     </div>
 
-                    <div
-                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
-                      style={{ fontFamily: "'Lato', serif" }}
-                    >
-                      <Image
-                        src="/imgpgvendas/cancel0.webp"
-                        alt="Imagem Coluna 1"
-                        className="w-[18px] h-[13px] "
-                        width={526}
-                        height={72}
-                        loading="lazy"
-                      />
-                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                      <s> Jantar especial com a Cátia</s>
-                      </p>
-                    </div>
+                  
 
                     <div
                       className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
@@ -212,6 +197,23 @@ export default function CapSection5OfertaOfertaAlice() {
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         <s>joia personalizada</s>
+                      </p>
+                    </div>
+
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <Image
+                        src="/imgpgvendas/cancel0.webp"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        width={526}
+                        height={72}
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                      <s> Jantar especial com a Cátia</s>
                       </p>
                     </div>
 
@@ -365,29 +367,14 @@ export default function CapSection5OfertaOfertaAlice() {
                       </p>
                     </div>
 
-                    <div
-                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
-                      style={{ fontFamily: "'Lato', serif" }}
-                    >
-                      <Image
-                        src="/imgpgvendas/cancel0.webp"
-                        alt="Imagem Coluna 1"
-                        className="w-[18px] h-[13px] "
-                        width={526}
-                        height={72}
-                        loading="lazy"
-                      />
-                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                        <s>Jantar especial com a Cátia</s>
-                      </p>
-                    </div>
+                 
 
                     <div
                       className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
                       style={{ fontFamily: "'Lato', serif" }}
                     >
                       <Image
-                        src="/imgpgvendas/cancel0.webp"
+                        src="/imgpgvendas/check.png"
                         alt="Imagem Coluna 1"
                         className="w-[18px] h-[13px] "
                         width={526}
@@ -395,7 +382,7 @@ export default function CapSection5OfertaOfertaAlice() {
                         loading="lazy"
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                        <s>Livro autografado</s>
+                      Livro autografado
                       </p>
                     </div>
 
@@ -413,6 +400,23 @@ export default function CapSection5OfertaOfertaAlice() {
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         <s>joia personalizada</s>
+                      </p>
+                    </div>
+
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <Image
+                        src="/imgpgvendas/cancel0.webp"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        width={526}
+                        height={72}
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                        <s>Jantar especial com a Cátia</s>
                       </p>
                     </div>
 
@@ -548,20 +552,7 @@ export default function CapSection5OfertaOfertaAlice() {
                       </p>
                     </div>
 
-                    <div
-                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
-                      style={{ fontFamily: "'Lato', serif" }}
-                    >
-                      <img
-                        src="/imgpgvendas/check.png"
-                        alt="Imagem Coluna 1"
-                        className="w-[18px] h-[13px] "
-                        loading="lazy"
-                      />
-                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
-                        Jantar especial com a Cátia
-                      </p>
-                    </div>
+                  
 
                     <div
                       className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
@@ -590,6 +581,21 @@ export default function CapSection5OfertaOfertaAlice() {
                       />
                       <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
                         Joia personalizada
+                      </p>
+                    </div>
+
+                    <div
+                      className="flex flex-start  lg:mt-[10px]  md:mt-[10px] pt-[10px]"
+                      style={{ fontFamily: "'Lato', serif" }}
+                    >
+                      <img
+                        src="/imgpgvendas/check.png"
+                        alt="Imagem Coluna 1"
+                        className="w-[18px] h-[13px] "
+                        loading="lazy"
+                      />
+                      <p className="text-left text-[#CCCCCC] my-2 text-[20px] md:text-[18px]  lg:text-[20px] lg:ml-[16px] lg:-mt-[10px]  md:-mt-[10px] -mt-[10px]  ml-[10px] md:ml-[10px]">
+                        Jantar especial com a Cátia
                       </p>
                     </div>
 
