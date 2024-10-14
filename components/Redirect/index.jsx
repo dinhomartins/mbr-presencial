@@ -1,12 +1,15 @@
 import React from "react";
-import VendasBrasilia from '@/components/VendasBrasilia'
-import VendasD from "@/components/VendasDinvertida";
-
-
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-export default function Sales() {
+
+
+
+
+
+function Redirect() {
+
+    
 
   const router = useRouter();
 
@@ -16,7 +19,12 @@ export default function Sales() {
     router.push(newUrl);
   }, [router])
 
- return (
-  <VendasD />
+  return (
+    <div className="">
+ 
+
+    </div>
   );
 }
+
+export default Redirect;

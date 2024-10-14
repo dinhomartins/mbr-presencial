@@ -11,6 +11,8 @@ import { useUtmParserSalesDiamante } from "../../../../components/HotmartTrackin
 
 import S1 from "../../../../components/FB01CapSection1Header";
 import WhattsFlutuante from "../../../../components/WhattsFlutuante"
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 
 const Section3FundoRed = dynamic(() => import('../../../../components/FB01CapSection3FundoRed'), { ssr: false });
@@ -26,6 +28,17 @@ const FooterPgC = dynamic(() => import('../../../../components/FooterPgC'), { ss
 
 
 function CapturaOrg() {
+
+    const router = useRouter();
+
+    useEffect(() => {
+      const queryParams = new URLSearchParams(window.location.search);
+      const newUrl = `https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-media/?${queryParams.toString()}`;
+      router.push(newUrl);
+    }, [router])
+
+    
+
     const utmPrata = useUtmParserSales()
     const utmOuro = useUtmParserSalesOuro()
     const utmDiamante = useUtmParserSalesDiamante()

@@ -4,6 +4,9 @@ import Container from "@/components/Container";
 import Image from "next/image";
 import FormProximoEvento from '../../../components/FormProximoEvento'
 
+import { useEffect } from 'react';
+import { useRouter } from 'next/router'
+
 
 export default function Obrigado() {
   const handleClickScroll = () => {
@@ -15,6 +18,14 @@ export default function Obrigado() {
   };
 
   const font16 = "lg:text-[16px]"; // Defina o tamanho da fonte desejado
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    const newUrl = `https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-media/?${queryParams.toString()}`;
+    router.push(newUrl);
+  }, [router])
 
   return (
 <div>

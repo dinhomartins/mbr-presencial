@@ -1,6 +1,8 @@
 import React from "react";
 import dynamic from 'next/dynamic';
 
+import { useEffect } from 'react';
+import { useRouter } from 'next/router'
 
 import S1 from '@/components/CapSection1HeaderMasterLove'
 // import S2FundoRed from  '@/components/CapSection3FundoRed'
@@ -21,7 +23,17 @@ const CapSection7Perguntas = dynamic(() => import('../../../components/CapSectio
 const CapSubFooter2 = dynamic(() => import('../../../components/CapSubFooter2'), { ssr: false });
 
 
-export default function masterLove() {
+export default function MasterLove() {
+
+   
+  const router = useRouter();
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    const newUrl = `https://lp.toquefeminino.com.br/pp-new/ginastica-intima-pompoarismo-media/?${queryParams.toString()}`;
+    router.push(newUrl);
+  }, [router])
+  
  return (
   <>
   <S1 />
